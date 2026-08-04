@@ -1,0 +1,480 @@
+\begin{thebibliography}{10}
+
+\bibitem{10973522}
+Vaishali Aggarwal, Sachin Thukral, Krushil Patel, and Arnab Chatterjee.
+\newblock Leveraging {LLMs} for mental health: Detection and recommendations
+  from social discussions.
+\newblock In {\em 2024 IEEE/WIC International Conference on Web Intelligence
+  and Intelligent Agent Technology (WI-IAT)}, pages 350--354, 2024.
+
+\bibitem{info:doi/10.2196/70439}
+Oren Asman, John Torous, and Amir Tal.
+\newblock Responsible design, integration, and use of generative ai in mental
+  health.
+\newblock {\em JMIR Mental Health}, 12:e70439, 2025.
+
+\bibitem{badawi-etal-2026-trust}
+Abeer Badawi, Elahe Rahimi, Md~Tahmid~Rahman Laskar, Sheri Grach, Lindsay
+  Bertrand, Lames Danok, Prathiba Dhanesh, Jimmy Huang, Frank Rudzicz, and
+  Elham Dolatabadi.
+\newblock When can we trust {LLMs} in mental health? large-scale benchmarks for
+  reliable {LLM} evaluation.
+\newblock In {\em Proceedings of the 19th Conference of the European Chapter of
+  the Association for Computational Linguistics (Volume 1: Long Papers)}, pages
+  3873--3896, 2026.
+
+\bibitem{Sree2024RetrievalAugmentedGB}
+Y.~Bhanu~Sree, Omrender Kumar, Addicharla Sathvik, Bandaru Sai, Pranav Rao,
+  Damarla Sai, and Hema Akshit.
+\newblock Retrieval-augmented generation based large language model chatbot for
+  improving diagnosis for physical and mental health.
+\newblock In {\em 2024 6th International Conference on Electrical, Control and
+  Instrumentation Engineering (ICECIE)}, pages 1--8. IEEE, 2024.
+
+\bibitem{10743711}
+Pranav Bookanakere, Sharanya S, Syeda Saniya, Arjun R, and Srinivas~K. S.
+\newblock Textual therapies: Harnessing language models for mental health
+  insights.
+\newblock In {\em 2024 International Conference on Advances in Computing
+  Research on Science Engineering and Technology (ACROSET)}, pages 1--5, 2024.
+
+\bibitem{bucur2024leveraging}
+Ana-Maria Bucur.
+\newblock Leveraging {LLM}-generated data for detecting depression symptoms on
+  social media.
+\newblock In {\em Proceedings of the 15th International Conference of the CLEF
+  Association (CLEF 2024)}, Lecture Notes in Computer Science, pages 193--204.
+  Springer, 9 2024.
+
+\bibitem{cai2026exploringsafetyalignmentevaluation}
+Yunna Cai, Fan Wang, Haowei Wang, Kun Wang, Kailai Yang, Sophia Ananiadou,
+  Moyan Li, and Mingming Fan.
+\newblock Exploring safety alignment evaluation of llms in chinese mental
+  health dialogues via llm-as-judge, 2025.
+
+\bibitem{CAMPBELL2025}
+Laurie~O Campbell, Kathryn Babb, Glenn~W Lambie, and B~Grant Hayes.
+\newblock An examination of generative ai response to suicide inquires: Content
+  analysis.
+\newblock {\em JMIR Mental Health}, 12, 2025.
+
+\bibitem{info:doi/10.2196/67365}
+Timothy~R. Campellone, Megan Flom, Robert~M. Montgomery, Lauren Bullard,
+  Maddison~C. Pirner, Aaron Pavez, Michelle Morales, Devin Harper, Catherine
+  Oddy, Tom O'Connor, Jade Daniels, Stephanie Eaneff, Valerie~L.
+  Forman-Hoffman, Casey Sackett, and Alison Darcy.
+\newblock Safety and user experience of a generative artificial intelligence
+  digital mental health intervention: Exploratory randomized controlled trial.
+\newblock {\em Journal of Medical Internet Research}, 27:e67365, 2025.
+
+\bibitem{chung2023challengeslargelanguagemodels}
+Neo~Christopher Chung, George Dyer, and Lennart Brocki.
+\newblock Challenges of large language models for mental health counseling,
+  2023.
+
+\bibitem{fpsyt.2025.1634714}
+Xueting Cui, Yun Gu, Hui Fang, and Tingshao Zhu.
+\newblock Development and evaluation of llm-based suicide intervention chatbot.
+\newblock {\em Frontiers in Psychiatry}, 16, 2025.
+
+\bibitem{DEDURO2025100170}
+Edoardo~Sebastiano {De Duro}, Riccardo Improta, and Massimo Stella.
+\newblock Introducing counsellme: A dataset of simulated mental health
+  dialogues for comparing llms like haiku, llamantino and chatgpt against
+  humans.
+\newblock {\em Emerging Trends in Drugs, Addictions, and Health}, 5:100170,
+  2025.
+
+\bibitem{Eberhardt2025}
+Steffen~T. Eberhardt, Antonia Vehlen, Jana Schaffrath, Brian Schwartz, Tobias
+  Baur, Dominik Schiller, Tobias Hallmen, Elisabeth Andr{\'e}, and Wolfgang
+  Lutz.
+\newblock Development and validation of large language model rating scales for
+  automatically transcribed psychological therapy sessions.
+\newblock {\em Scientific Reports}, 15(1):29541, 2025.
+
+\bibitem{10774623}
+Steve~Boby George, M.~R. Binu~Rajan, and P.~M. Ebin.
+\newblock Mello: A large language model for mental health counselling
+  conversations.
+\newblock In {\em 2024 3rd International Conference for Advancement in
+  Technology (ICONAT)}, pages 1--6, 2024.
+
+\bibitem{Gumilang2024DevelopmentOA}
+Mukhamad~Angga Gumilang, Hayuning~Titi Karsanti, Ria~Wiyatfi Linsiya,
+  Kimi~Dandy Yudanarko, Lisa~Novita Sari, Ariz Saputra, and Naela~Zahwa
+  Salsabila.
+\newblock Development of a mental health chatbot using large language models
+  for indonesian undergraduates.
+\newblock In {\em 2024 International Conference on Computer, Control,
+  Informatics and its Applications (IC3INA)}, pages 337--342. IEEE, 2024.
+
+\bibitem{10958051}
+Youwei Guo and Yanrong Guo.
+\newblock A knowledge graph and large language model-based framework for
+  depression detection.
+\newblock In {\em 2024 International Conference on Image Processing, Computer
+  Vision and Machine Learning (ICICML)}, pages 670--673, 2024.
+
+\bibitem{GUO2024}
+Zhijun Guo, Alvina Lai, Johan~H. Thygesen, Joseph Farrington, Thomas Keen, and
+  Kezhi Li.
+\newblock Large language models for mental health applications: Systematic
+  review.
+\newblock {\em JMIR Mental Health}, 11, 2024.
+\newblock PROSPERO CRD42024508617.
+
+\bibitem{Hanss2025}
+Kaitlin Hanss, Karthik~V. Sarma, Anne~L. Glowinski, Andrew Krystal, Ramotse
+  Saunders, Andrew Halls, Sasha Gorrell, and Erin Reilly.
+\newblock Assessing the accuracy and reliability of large language models in
+  psychiatry using standardized multiple-choice questions: Cross-sectional
+  study.
+\newblock {\em Journal of Medical Internet Research}, 27:e69910, 2025.
+
+\bibitem{PMID:38111813}
+Thomas~F. Heston.
+\newblock Safety of large language models in addressing depression.
+\newblock {\em Cureus}, 15(12):e50729, 12 2023.
+
+\bibitem{hu2024psycollmenhancingllmpsychological}
+Jinpeng Hu, Tengteng Dong, Luo Gang, Hui Ma, Peng Zou, Xiao Sun, Dan Guo, Xun
+  Yang, and Meng Wang.
+\newblock Psycollm: Enhancing {LLM} for psychological understanding and
+  evaluation.
+\newblock {\em IEEE Transactions on Computational Social Systems}, 2024.
+
+\bibitem{Hua2025LLMMentalHealthScoping}
+Yining Hua, Fenglin Liu, Kailai Yang, Zehan Li, Hongbin Na, Yi-han Sheu, Peilin
+  Zhou, Lauren~V. Moran, Sophia Ananiadou, David~A. Clifton, Andrew Beam, and
+  John Torous.
+\newblock Large language models in mental health care: A scoping review.
+\newblock {\em Current Treatment Options in Psychiatry}, 12(1):27, 2025.
+
+\bibitem{Hua2025}
+Yining Hua, Hongbin Na, Zehan Li, Fenglin Liu, Xiao Fang, David Clifton, and
+  John Torous.
+\newblock A scoping review of large language models for generative tasks in
+  mental health care.
+\newblock {\em npj Digital Medicine}, 8(1):230, April 2025.
+
+\bibitem{Huang_2025}
+Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang,
+  Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, and Ting Liu.
+\newblock A survey on hallucination in large language models: Principles,
+  taxonomy, challenges, and open questions.
+\newblock {\em ACM Transactions on Information Systems}, 43(2):1--55, January
+  2025.
+
+\bibitem{Iftikhar2025HowLC}
+Zainab Iftikhar, Amy~Wei Xiao, Sean Ransom, Jeff Huang, and Harini Suresh.
+\newblock How llm counselors violate ethical standards in mental health
+  practice: A practitioner-informed framework.
+\newblock {\em Proceedings of the AAAI/ACM Conference on AI, Ethics, and
+  Society}, 2025.
+
+\bibitem{Jin2025LLMMentalHealth}
+Yu~Jin, Jiayi Liu, Pan Li, Baosen Wang, Yangxinyu Yan, Huilin Zhang, Chenhao
+  Ni, Jing Wang, Yi~Li, Yajun Bu, and Yuanyuan Wang.
+\newblock The applications of large language models in mental health: Scoping
+  review.
+\newblock {\em Journal of Medical Internet Research}, 27:e69284, 2025.
+
+\bibitem{10675718}
+Supriya Kamoji, Sanika Rozario, Sania Almeida, Shruti Patil, Sanika Patankar,
+  and Heenakausar Pendhari.
+\newblock Mental health prediction using machine learning models and large
+  language model.
+\newblock In {\em 2024 Second International Conference on Inventive Computing
+  and Informatics (ICICI)}, pages 185--190, 2024.
+
+\bibitem{Kharitonova15062025}
+Ksenia Kharitonova, David P{\'e}rez-Fern{\'a}ndez, Javier
+  Guti{\'e}rrez-Hernando, Asier Guti{\'e}rrez-Fandi{\~n}o, Zoraida Callejas,
+  and David Griol.
+\newblock Incorporating evidence into mental health {Q\&A}: a novel method to
+  use generative language models for validated clinical content extraction.
+\newblock {\em Behaviour \& Information Technology}, 44(10):2333--2350, 2025.
+
+\bibitem{kim-etal-2026-kind}
+Sewon Kim, Jiwon Kim, SeungWoo Shin, Hyejin Chung, Daeun Moon, Yejin Kwon, and
+  Hyunsoo Yoon.
+\newblock Being kind isn't always being safe: Diagnosing affective
+  hallucination in {LLMs}.
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  EACL 2026}, pages 50--78, 2026.
+
+\bibitem{fpsyt.2025.1583739}
+Yejin Kim, Chi-Hyun Choi, Selin Cho, Jy-yong Sohn, and Byung-Hoon Kim.
+\newblock Aligning large language models for cognitive behavioral therapy: a
+  proof-of-concept study.
+\newblock {\em Frontiers in Psychiatry}, 16:1583739, 2025.
+
+\bibitem{Kolding2025}
+Sara Kolding, Robert~M. Lundin, Lasse Hansen, and S{\o}ren~Dinesen
+  {\O}stergaard.
+\newblock Use of generative artificial intelligence (ai) in psychiatry and
+  mental health care: a systematic review.
+\newblock {\em Acta Neuropsychiatrica}, 37:e37, 2025.
+
+\bibitem{lai2023psyllmscalingglobalmental}
+Tin Lai, Yukun Shi, Zicong Du, Jiajie Wu, Ken Fu, Yichao Dou, and Ziqi Wang.
+\newblock Psy-llm: Scaling up global mental health psychological services with
+  ai-based large language models, 2023.
+
+\bibitem{Lauderdale2025EffectivenessOG}
+Sean Lauderdale, Randee~M. Schmitt, Breanna Wuckovich, Natashaa Dalal, Hela
+  Desai, and Shealyn Tomlinson.
+\newblock Effectiveness of generative ai-large language models' recognition of
+  veteran suicide risk: a comparison with human mental health providers using a
+  risk stratification model.
+\newblock {\em Frontiers in Psychiatry}, 16, 2025.
+
+\bibitem{ejihpe15010009}
+Inbar Levkovich.
+\newblock Evaluating diagnostic accuracy and treatment efficacy in mental
+  health: A comparative analysis of large language model tools and mental
+  health professionals.
+\newblock {\em European Journal of Investigation in Health, Psychology and
+  Education}, 15(1):9, 2025.
+
+\bibitem{li2026counselbenchlargescaleexpertevaluation}
+Yahan Li, Jifan Yao, John Bosco~S. Bunyi, Adam~C. Frank, Angel Hsing-Chi Hwang,
+  and Ruishan Liu.
+\newblock Counselbench: A large-scale expert evaluation and adversarial
+  benchmarking of large language models in mental health question answering,
+  2026.
+
+\bibitem{LINARDON2025}
+Jake Linardon, Hannah~K Jarman, Zoe McClure, Cleo Anderson, Claudia Liu, and
+  Mariel Messer.
+\newblock Influence of topic familiarity and prompt specificity on citation
+  fabrication in mental health research using large language models:
+  Experimental study.
+\newblock {\em JMIR Mental Health}, 12, 2025.
+
+\bibitem{10601118}
+Cristina Luna-Jim{\'e}nez, Zoraida Callejas, and David Griol.
+\newblock Mental-health topic classification employing d-vectors of large
+  language models.
+\newblock In {\em 2024 IEEE 37th International Symposium on Computer-Based
+  Medical Systems (CBMS)}, pages 199--204, 2024.
+
+\bibitem{Maurya2025}
+Ritesh Maurya, Nikhil Rajput, M.~G. Diviit, Satyajit Mahapatra, and
+  Manish~Kumar Ojha.
+\newblock Exploring the potential of lightweight large language models for
+  ai-based mental health counselling task: A novel comparative study.
+\newblock {\em Scientific Reports}, 15(1):22463, July 2025.
+
+\bibitem{MCBAIN2025}
+Ryan~K McBain, Jonathan~H Cantor, Li~Ang Zhang, Olesya Baker, Fang Zhang,
+  Alyssa Halbisen, Aaron Kofner, Joshua Breslau, Bradley Stein, Ateev Mehrotra,
+  and Hao Yu.
+\newblock Competency of large language models in evaluating appropriate
+  responses to suicidal ideation: Comparative study.
+\newblock {\em Journal of Medical Internet Research}, 27, 2025.
+
+\bibitem{McBain2025LLMSuicideRisk}
+Ryan~K. McBain, Jonathan~H. Cantor, Lily~A. Zhang, Olivia Baker, Fan Zhang,
+  Anna Burnett, Aaron Kofner, Joshua Breslau, Bradley~D. Stein, Ateev Mehrotra,
+  and Hao Yu.
+\newblock Evaluation of alignment between large language models and expert
+  clinicians in suicide risk assessment.
+\newblock {\em Psychiatric Services}, 76(11):944--950, November 2025.
+\newblock PMID: 41174947, Epub 2025 Aug 26.
+
+\bibitem{Moore_2025}
+Jared Moore, Declan Grabb, William Agnew, Kevin Klyman, Stevie Chancellor,
+  Desmond~C. Ong, and Nick Haber.
+\newblock Expressing stigma and inappropriate responses prevents llms from
+  safely replacing mental health providers.
+\newblock In {\em Proceedings of the 2025 ACM Conference on Fairness,
+  Accountability, and Transparency}, pages 599--627. ACM, June 2025.
+
+\bibitem{moore2026characterizingdelusionalspiralshumanllm}
+Jared Moore, Ashish Mehta, William Agnew, Jacy~Reese Anthis, Ryan Louie, Yifan
+  Mai, Peggy Yin, Myra Cheng, Samuel~J Paech, Kevin Klyman, Stevie Chancellor,
+  Eric Lin, Nick Haber, and Desmond~C. Ong.
+\newblock Characterizing delusional spirals through human-llm chat logs, 2026.
+
+\bibitem{10714257}
+Mehul Nanda, Diana Inkpen, and Aroldo Dargel.
+\newblock Detecting multiple mental health disorders with large language
+  models.
+\newblock In {\em 2024 28th International Conference Information Visualisation
+  (IV)}, pages 252--257, 2024.
+
+\bibitem{nguyen-etal-2025-large}
+Viet~Cuong Nguyen, Mohammad Taher, Dongwan Hong, Vinicius~Konkolics Possobom,
+  Vibha~Thirunellayi Gopalakrishnan, Ekta Raj, Zihang Li, Heather~J. Soled,
+  Michael~L. Birnbaum, Srijan Kumar, and Munmun De~Choudhury.
+\newblock Do large language models align with core mental health counseling
+  competencies?
+\newblock In {\em Findings of the Association for Computational Linguistics:
+  NAACL 2025}, pages 7503--7526, Albuquerque, New Mexico, April 2025.
+  Association for Computational Linguistics.
+
+\bibitem{OHSE2024101663}
+Julia Ohse, Bakir Had{\v{z}}i{\'c}, Parvez Mohammed, Nicolina Peperkorn,
+  Michael Danner, Akihiro Yorita, Naoyuki Kubota, Matthias R{\"a}tsch, and
+  Youssef Shiban.
+\newblock Zero-shot strike: Testing the generalisation capabilities of
+  out-of-the-box llm models for depression detection.
+\newblock {\em Computer Speech \& Language}, 88:101663, 2024.
+
+\bibitem{10845582}
+Ioannis Patias, Dafinka Miteva, Elitsa Peltekova, Michaela Wright, and Barbara
+  Gasteiger-Klicpera.
+\newblock Leveraging large language models to enhance mental health literacy
+  and diversity awareness in adolescents: The me\_heli-d project.
+\newblock In {\em 2024 8th International Symposium on Innovative Approaches in
+  Smart Technologies (ISAS)}, pages 1--5, 2024.
+
+\bibitem{patil2026cognitivementalllm}
+Avinash Patil and Amardeep~Kour Gedhu.
+\newblock Cognitive-mental-llm: Evaluating reasoning in large language models
+  for mental health prediction via online text, 2026.
+
+\bibitem{qi2024supervisedlearninglargelanguage}
+Hongzhi Qi, Qing Zhao, Jianqiang Li, Changwei Song, Wei Zhai, Dan Luo, Shuo
+  Liu, Yi~Jing Yu, Fan Wang, Huijing Zou, Bing~Xiang Yang, and Guanghui Fu.
+\newblock Supervised learning and large language model benchmarks on mental
+  health datasets: Cognitive distortions and suicidal risks in chinese social
+  media, 2024.
+
+\bibitem{10.1145/3805697}
+Kaushik Roy, Harshul Surana, Darssan Eswaramoorthi, Yuxin Zi, Vedant Palit,
+  Ritvik Garimella, and Amit Sheth.
+\newblock Exploring the potential of large language models for assisting with
+  mental health diagnostic assessments.
+\newblock {\em ACM Transactions on Computing for Healthcare}, 7(3), June 2026.
+
+\bibitem{SCHNEPPER2025}
+Rebekka Schnepper, Noa Roemmel, Rainer Schaefert, Lena Lambrecht-Walzinger, and
+  Gunther Meinlschmidt.
+\newblock Exploring biases of large language models in the field of mental
+  health: Comparative questionnaire study of the effect of gender and sexual
+  orientation in anorexia nervosa and bulimia nervosa case vignettes.
+\newblock {\em JMIR Mental Health}, 12, 2025.
+
+\bibitem{SETTANNI2025116583}
+Michele Settanni, Francesco Quilghini, Anna Toscano, and Davide Marengo.
+\newblock Assessing the accuracy and consistency of large language models in
+  triaging social media posts for psychological distress.
+\newblock {\em Psychiatry Research}, 351:116583, 2025.
+
+\bibitem{10427865}
+Aditi Singh, Abul Ehtesham, Saifuddin Mahmud, and Jong-Hoon Kim.
+\newblock Revolutionizing mental health care through {LangChain}: A journey
+  with a large language model.
+\newblock In {\em 2024 IEEE 14th Annual Computing and Communication Workshop
+  and Conference (CCWC)}, pages 0073--0078, 2024.
+
+\bibitem{song2025typingcureexperienceslarge}
+Inhwa Song, Sachin~R. Pendse, Neha Kumar, and Munmun De~Choudhury.
+\newblock The typing cure: Experiences with large language model chatbots for
+  mental health support.
+\newblock {\em Proceedings of the ACM on Human-Computer Interaction}, 9(CSCW2),
+  2025.
+
+\bibitem{sood2024understandingstudentsentimentmental}
+Palak Sood, Chengyang He, Divyanshu Gupta, Yue Ning, and Ping Wang.
+\newblock Understanding student sentiment on mental health support in colleges
+  using large language models, 2024.
+
+\bibitem{10385480}
+Palak Sood, Xinming Yang, and Ping Wang.
+\newblock Enhancing depression detection from narrative interviews using
+  language models.
+\newblock In {\em 2023 IEEE International Conference on Bioinformatics and
+  Biomedicine (BIBM)}, pages 3173--3180, 2023.
+
+\bibitem{Stade2026}
+Elizabeth~C. Stade, Zoe~M. Tait, Samuel~T. Campione, Shannon Wiltsey~Stirman,
+  and Johannes~C. Eichstaedt.
+\newblock Real-world use of large language models for mental health in 2024.
+\newblock {\em npj Digital Medicine}, August 2026.
+
+\bibitem{steenstra2026assessingriskslargelanguage}
+Ian Steenstra, Paola Pedrelli, Weiyan Shi, Stacy Marsella, and Timothy~W.
+  Bickmore.
+\newblock Assessing risks of large language models in mental health support: A
+  framework for automated clinical ai red teaming, 2026.
+
+\bibitem{pcn5.70159}
+Samanvith Thotapalli, Musa Yilanli, Ian McKay, William Leever, Eric Youngstrom,
+  Karah Harvey-Nuckles, Kimberly Lowder, Steffanie Schweitzer, Erin Sunderland,
+  Daniel~I. Jackson, and Emre Sezgin.
+\newblock Potential of chatgpt in youth mental health emergency triage:
+  Comparative analysis with clinicians.
+\newblock {\em Psychiatry and Clinical Neurosciences Reports}, 4(3):e70159,
+  2025.
+
+\bibitem{WANG2025}
+Liying Wang, Tanmay Bhanushali, Zhuoran Huang, Jingyi Yang, Sukriti Badami, and
+  Lisa Hightow-Weidman.
+\newblock Evaluating generative ai in mental health: Systematic review of
+  capabilities and limitations.
+\newblock {\em JMIR Mental Health}, 12:e70014, 2025.
+
+\bibitem{wang2025evaluatingllmpoweredchatbotcognitive}
+Yinzhou Wang, Yimeng Wang, Ye~Xiao, Liabette Escamilla, Bianca Augustine, Kelly
+  Crace, Gang Zhou, and Yixuan Zhang.
+\newblock Evaluating an llm-powered chatbot for cognitive restructuring:
+  Insights from mental health professionals, 2025.
+
+\bibitem{xin2024outcomes}
+Al~Xin, Juan~Antonio Lossio-Ventura, Karolin Krause, Guilherme Fiorini, Nick
+  Midgley, Francisco Pereira, and Dylan Nielson.
+\newblock Outcomes that matter to depressed adolescents can be identified with
+  large language models, 05 2024.
+\newblock PsyArXiv preprint.
+
+\bibitem{Xu2025.01.03.24318117}
+Shihao Xu, Yiming Yan, Feng Li, Shu Zhang, Haoyun Tang, Chao Luo, Yan Li, Hao
+  Liu, Yu~Mei, Wenjie Gu, Hong Qiu, Yong Wang, Jianyin Qiu, Tao Yang, Zike
+  Wang, Qing Zhang, Haiyang Geng, Yunyun Han, Jun Shao, Nils Opel, Lidong Bing,
+  Min Zhao, Yifeng Xu, Xun Jiang, and Jianhua Chen.
+\newblock Identifying psychiatric manifestations in outpatients with depression
+  and anxiety: A large language model-based approach.
+\newblock {\em medRxiv}, 2025.
+
+\bibitem{Xu_2024}
+Xuhai Xu, Bingsheng Yao, Yuanzhe Dong, Saadia Gabriel, Hong Yu, James Hendler,
+  Marzyeh Ghassemi, Anind~K. Dey, and Dakuo Wang.
+\newblock Mental-llm: Leveraging large language models for mental health
+  prediction via online text data.
+\newblock {\em Proceedings of the ACM on Interactive, Mobile, Wearable and
+  Ubiquitous Technologies}, 8(1):1--32, March 2024.
+
+\bibitem{Xu2025}
+Yijun Xu, Zhaoxi Fang, Weinan Lin, Yue Jiang, Wen Jin, Prasanalakshmi Balaji,
+  Jiangda Wang, and Ting Xia.
+\newblock Evaluation of large language models on mental health: from knowledge
+  test to illness diagnosis.
+\newblock {\em Frontiers in Psychiatry}, 16:1646974, 2025.
+
+\bibitem{fpsyg.2025.1715306}
+Jinhua Yang, Ting Liu, Yiming~Taclis Luo, Tianyue Niu, Patrick Pang, Ao~Xiang,
+  and Qin Yang.
+\newblock Exploring the application boundaries of llms in mental health: a
+  systematic scoping review.
+\newblock {\em Frontiers in Psychology}, 16, 2026.
+
+\bibitem{Yeo2025SociodemographicBiasMentalHealthAI}
+Yoon~H. Yeo, Yao Peng, Melanie Mehra, Joseph~S. Samaan, Joshua Hakimian, Andrew
+  Clark, Karan Suchak, Zachary Krut, Tommy Andersson, Susan Persky, Omer Liran,
+  and Brennan Spiegel.
+\newblock Evaluating for evidence of sociodemographic bias in conversational ai
+  for mental health support.
+\newblock {\em Cyberpsychology, Behavior, and Social Networking}, 28(1):44--51,
+  January 2025.
+
+\bibitem{yeung2025psychogenicmachinesimulatingai}
+Joshua~Au Yeung, Jacopo Dalmasso, Luca Foschini, Richard~JB Dobson, and Zeljko
+  Kraljevic.
+\newblock The psychogenic machine: Simulating ai psychosis, delusion
+  reinforcement and harm enablement in large language models, 2025.
+
+\end{thebibliography}

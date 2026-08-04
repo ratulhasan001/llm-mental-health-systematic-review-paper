@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  4 AUG 2026 23:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  5 AUG 2026 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
 \c@section=\count197
@@ -23,12 +23,20 @@ File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks19
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -47,42 +55,318 @@ File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count270
+\Gm@cntv=\count271
+\c@Gm@tempcnt=\count272
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks20
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen152
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count273
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count274
+\leftroot@=\count275
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count276
+\DOTSCASE@=\count277
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count278
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count279
+\dotsspace@=\muskip17
+\c@parentequation=\count280
+\dspbrk@lvl=\count281
+\tag@help=\toks22
+\row@=\count282
+\column@=\count283
+\maxfields@=\count284
+\andhelp@=\toks23
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks24
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen161
+\ar@mcellbox=\box54
+\extrarowheight=\dimen162
+\NC@list=\toks26
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box55
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen163
+\TX@old@table=\dimen164
+\TX@old@col=\dimen165
+\TX@target=\dimen166
+\TX@delta=\dimen167
+\TX@cols=\count285
+\TX@ftn=\toks27
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.st
+y
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count286
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen168
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count291
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen169
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen170
+\Fld@charsize=\dimen171
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip56
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count270
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count298
+\l__pdf_internal_box=\box56
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count271
-\scratchdimen=\dimen144
-\scratchbox=\box53
-\nofMPsegments=\count272
-\nofMParguments=\count273
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count274
-\MPscratchDim=\dimen145
-\MPnumerator=\count275
-\makeMPintoPDFobject=\count276
-\everyMPtoPDFconversion=\toks19
+\scratchcounter=\count299
+\scratchdimen=\dimen172
+\scratchbox=\box57
+\nofMPsegments=\count300
+\nofMParguments=\count301
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count302
+\MPscratchDim=\dimen173
+\MPnumerator=\count303
+\makeMPintoPDFobject=\count304
+\everyMPtoPDFconversion=\toks29
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -92,39 +376,1754 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package hyperref Info: Link coloring OFF on input line 19.
+(./main.out) (./main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./main.aux)
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+
+[2]
+Overfull \hbox (9.14091pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Databases| 
+ []
+
+
+Overfull \hbox (3.6413pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Screened
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\OMS/cmsy/m/n/9 !$ \T1/cmr/bx/n/9 In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Search
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/bx/n/9 win-dow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Dual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/bx/n/9 screen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Quality
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/bx/n/9 ap-
+ []
+
+
+Overfull \hbox (13.15424pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/bx/n/9 Agreement
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/bx/n/9 re-
+ []
+
+
+Overfull \hbox (2.18819pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2025)[[]]| 
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 4,859 $\OMS/cmsy/m/n/9 !$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Yes (3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Hua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (6.81206pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2025a)[[]]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 6 (incl.
+ []
+
+
+Overfull \hbox (2.02776pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 preprints)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Human
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (2.18819pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2026)[[]]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Scoping
+ []
+
+
+Overfull \hbox (5.77898pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (PRISMA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 ScR +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Not re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 ad-ju-di-ca-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Hua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (7.32582pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2025b)[[]]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Scoping
+ []
+
+
+Overfull \hbox (2.6964pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (PRISMA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Wang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (6.81206pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2025a)[[]]| 
+ []
+
+
+Overfull \hbox (6.09624pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Systematic
+ []
+
+
+Overfull \hbox (6.29272pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (PRISMA)| 
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 1,046 $\OMS/cmsy/m/n/9 !$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Yes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Kolding
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (2.18819pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2025)[[]]| 
+ []
+
+
+Overfull \hbox (6.09624pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Systematic
+ []
+
+
+Overfull \hbox (5.26521pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (PRISMA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 pre-reg-is-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Yes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (both
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Declined,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Guo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 et al.
+ []
+
+
+Overfull \hbox (6.81206pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (2024a)[[]]| 
+ []
+
+
+Overfull \hbox (6.09624pt too wide) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/9 Systematic
+ []
+
+
+Overfull \hbox (6.29272pt too wide) in paragraph at lines 79--79
+\T1/cmr/m/n/9 (PRISMA)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+\T1/cmr/m/n/9 ad-ju-di-ca-
+ []
+
+
+
+[3
+
+]
+
+[4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+[]|\T1/cmr/bx/n/10 Covered by any
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\T1/cmr/bx/n/10 prior re-view's
+ []
+
+
+
+[5]
+
+[6]
+
+[7]
+Overfull \hbox (9.06453pt too wide) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Psychiatrist/psychologist
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 204--204
+\T1/cmr/m/n/10 cod-ing of clin-i-cal or
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Fleiss' $\OML/cmm/m/it/10 ^^T$ \T1/cmr/m/n/10 + Krip-pen-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\OML/cmm/m/it/10 ^^T$ \T1/cmr/m/n/10 0.74/0.72 (Roy);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T1/cmr/m/n/10 psychiatrist-reviewed
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Structured self-report
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 PHQ-8 / BDI-II ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Trained non-clinical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Graduate stu-dents,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T1/cmr/m/n/10 bilin-gual val-ida-tors,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Platform self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 User-stated di-ag-no-sis
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 204--204
+\T1/cmr/m/n/10 matched by key-word
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Model-generated
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 LLM as-signs train-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]|\T1/cmr/m/n/10 Aggarwal et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+\T1/cmr/m/n/10 (2024)[[]]; Hu et
+ []
+
+
+
+[8]
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/bx/n/9 Imbalance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Ohse et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 KID (+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 DAIC/E-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Semi-clinical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 PHQ-8 self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Sood et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 PHQ-8 self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Acknowledged,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Xu et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 SMHC di-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 1,160 out-pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Psychiatrist
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Xin et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Qualitative
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/bx/n/9 Subject-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/bx/n/9 grouped
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Qi et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 SOS-HL-1K;
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 1,249 + 3,407
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Nanda et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 ~8k con-trol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Platform self-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Sood et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Random
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Synthetic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 (HOPE as
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Bucur et al.
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 eRisk 2023 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 2,700 syn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 3 an-no-ta-tors,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 ma-jor-ity +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Roy et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 PRIMATE +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Randomised
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 GPT-4o pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 posal + 3
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 clin-i-cian val-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Reddit
+ []
+
+
+Overfull \hbox (4.04584pt too wide) in paragraph at lines 274--274
+\T1/cmr/m/n/9 (r/mentalhealth,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 LLM pseudo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 labels (4
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 sources com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Hu et al.
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 Proposed Chi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+[]|\T1/cmr/m/n/9 LLM gen-er-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
+\T1/cmr/m/n/9 judg-ment +
+ []
+
+
+
+[10]
+
+[11]
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Lai et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 PanGu 350M
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 / Wen-Zhong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Domain pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Perplexity,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 ROUGE-L,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 6 psy-chol-ogy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 stu-dents, 200
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Xu et al.
+ []
+
+
+Underfull \hbox (badness 7613) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Alpaca 7B /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Multi-task in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Balanced
+ []
+
+
+Underfull \hbox (badness 4582) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 George et al.
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Mistral-7B In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 PsychoBench
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 EIS/Empathy,
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Human norms
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Maurya et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 T5/FLAN-
+ []
+
+
+Overfull \hbox (17.30647pt too wide) in paragraph at lines 342--342
+\T1/cmr/m/n/9 T5/BART/GODEL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 ROUGE,
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 342--342
+\T1/cmr/m/n/9 BLEU-4, per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 plex-ity +
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 342--342
+\T1/cmr/m/n/9 hard-ware met-
+ []
+
+
+Overfull \hbox (3.26823pt too wide) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Train/validation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 58 stu-dents
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Edge-
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 342--342
+[]|\T1/cmr/m/n/9 Accuracy, pre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
+\T1/cmr/m/n/9 ci-sion, re-call,
+ []
+
+
+
+[13]
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/bx/n/9 Adaptation
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/bx/n/9 Quantitative
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/bx/n/9 Generation-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\T1/cmr/bx/n/9 quality in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/bx/n/9 Hallucination
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 Act-label
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 LLM-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 Lai, Mau-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\T1/cmr/m/n/9 rya, George,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\T1/cmr/m/n/9 Gu-mi-lang,
+ []
+
+
+Overfull \hbox (1.37843pt too wide) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 ROUGE/BLEU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+\T1/cmr/m/n/9 Psy-choBench
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 Kharitonova,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 Expert Lik-ert
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 403--403
+\T1/cmr/m/n/9 ex-perts); Sree
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--403
+[]|\T1/cmr/m/n/9 Verification
+ []
+
+
+
+[15]
+Overfull \hbox (4.19043pt too wide) in paragraph at lines 426--427
+\T1/cmr/m/n/10.95 Three stud-ies de-rive ground truth from stan-dard-ised pro-f
+es-sional ex-am-i-na-tions, in-her-it-ing decades
+ []
+
+
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/bx/n/9 Inferential
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Nguyen et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Professional
+ []
+
+
+Underfull \hbox (badness 4242) in paragraph at lines 450--450
+\T1/cmr/m/n/9 li-cens-ing stan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 1,612 MCQs,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 4 prompt-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/cmr/m/n/9 ing/decoding
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Paired \T1/cmr/m/it/9 t\T1/cmr/m/n/9 -tests;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Xu et al.
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Chinese Coun-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 944 exam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/cmr/m/n/9 items; 2,668
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Single pass,
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 None (de-scrip-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Hanss et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/cmr/m/n/9 Prepa-ra-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/cmr/m/n/9 and Re-view
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\T1/cmr/m/n/9 Chi-square
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+\T1/cmr/m/n/9 (Bon-fer-roni,
+ []
+
+
+
+[17]
+Overfull \hbox (26.88649pt too wide) in paragraph at lines 458--459
+[]\T1/cmr/bx/n/10.95 Li et al. (2026)[[]] \T1/cmr/m/n/10.95 as-sem-bled the lar
+gest clin-i-cal ex-pert panel in the cor-pus. COUNSELBENCH-
+ []
+
+
+
+[18]
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/bx/n/9 Reliability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/bx/n/9 Uncertainty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/bx/n/9 Rater-effect
+ []
+
+
+Underfull \hbox (badness 2334) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Nguyen et al.
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Tiebreaker ad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Xu et al.
+ []
+
+
+Underfull \hbox (badness 6725) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Exam key +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Hanss et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Published re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 view man-ual
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Response con-
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 508--508
+\T1/cmr/m/n/9 sis-tency (vari-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Li et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 100 li-censed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 prac-ti-tion-ers,
+ []
+
+
+Overfull \hbox (5.59625pt too wide) in paragraph at lines 508--508
+[]|\T1/cmr/bx/n/9 Krippendorff's
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Kruskal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 Wallis/chi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 square on
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 McBain et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Expert sui-ci-
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 508--508
+\T1/cmr/m/n/9 dol-o-gist norms
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 + his-tor-i-cal
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 z-score out-lier
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Nested-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 structure
+ []
+
+
+Underfull \hbox (badness 2884) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Badawi et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 3 psy-chi-atric
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 ex-perts, 70k
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/bx/n/9 95% boot-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/bx/n/9 strap CIs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+[]|\T1/cmr/m/n/9 Two-way
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 508--508
+\T1/cmr/m/n/9 mixed-effects
+ []
+
+
+
+[20]
+
+[21]
+Underfull \hbox (badness 6380) in paragraph at lines 559--559
+[]|\T1/cmr/bx/n/9 Total ob-ser-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/bx/n/9 Reliability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 6 ($\OMS/cmsy/m/n/9 ^^B$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 1,536 pro-fes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\T1/cmr/m/n/9 pub-lic (pub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 Schnepper et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 None (pub-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\T1/cmr/m/n/9 lished lit-er-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 Thotapalli et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/bx/n/9 Weighted
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\T1/cmr/bx/n/9 Co-hen's $\OML/cmm/m/it/9 ^^T$\T1/cmr/bx/n/9 ;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 Lauderdale et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/9 42 li-censed
+ []
+
+
+
+[22]
+
+[23]
+
+[24]
+Underfull \hbox (badness 4048) in paragraph at lines 631--631
+[]|\T1/cmr/bx/n/10 Internal va-lid-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/bx/n/10 Ecological va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/bx/n/10 Reliability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/cmr/bx/n/10 statis-tic re-
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Vignette / stan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Levkovich,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/cmr/m/n/10 Schnep-per,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/cmr/m/n/10 Tho-ta-palli,
+ []
+
+
+Underfull \hbox (badness 7379) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 High (con-trolled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/cmr/m/n/10 stim-uli, rep-e-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Low (hy-po-thet-i-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Settanni, Cui,
+ []
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Campellone, Pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Moderate (ran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\T1/cmr/m/n/10 domised but
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Wang, Song,
+ []
+
+
+Underfull \hbox (badness 1668) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Low (no con-trol
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/bx/n/10 Highest \T1/cmr/m/n/10 (real
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 Not ap-pli-ca-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\T1/cmr/m/n/10 High (na-tional
+ []
+
+
+
+[25]
+
+[26]
+
+[27]
+
+[28]
+Underfull \hbox (badness 3907) in paragraph at lines 720--720
+[]|\T1/cmr/bx/n/10 Studies with con-
+ []
+
+
+Underfull \hbox (badness 2608) in paragraph at lines 720--720
+[]|\T1/cmr/bx/n/10 Of which: ac-tual
+ []
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 720--720
+\T1/cmr/m/n/10 lin-guis-tic, or stigma-
+ []
+
+
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 Turn struc-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 Stimulus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 Human val-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+\T1/cmr/bx/n/9 i-da-tion of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 Inferential
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Generated re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Human (au-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Chi-square,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Kim et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 2 li-censed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Pearson \T1/cmr/m/it/9 r\T1/cmr/m/n/9 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Yeo et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Agent-to-agent,
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 LIWC-22 (au-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Joinpoint
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+\T1/cmr/m/n/9 re-gres-sion,
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 765--765
+\T1/cmr/m/n/9 GBTM, mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Moore et al.
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Single + con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Guideline-
+ []
+
+
+Underfull \hbox (badness 2865) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Psychiatrist +
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 765--765
+\T1/cmr/m/n/9 CS val-i-da-tion;
+ []
+
+
+Underfull \hbox (badness 5460) in paragraph at lines 765--765
+\T1/cmr/bx/n/9 Fleiss' $\OML/cmm/m/it/9 ^^T$ \T1/cmr/bx/n/9 =
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Bootstrap CIs,
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 McBain et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Single-turn
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Expert-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+\T1/cmr/m/n/9 stratified
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Mixed-effects
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 765--765
+\T1/cmr/m/n/9 lo-gis-tic re-gres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Heston
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 Escalating
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 PHQ-9-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+\T1/cmr/m/n/9 anchored
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Single hu-man
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Descriptive
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Single-turn, 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Proxy-framed
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 LIWC per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Clinician-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 None re-
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Paired \T1/cmr/m/it/9 t\T1/cmr/m/n/9 -tests,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/bx/n/9 4 lon-gi-tu-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 15 val-i-dated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Automated +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 9 psy-chol-ogy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 LMM, GLM,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Cai et al.
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 608 real cri-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 GPT-4o, ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 765--765
+[]|\T1/cmr/m/n/9 Correlations,
+ []
+
+
+
+[30]
+
+[31]
+Underfull \hbox (badness 3514) in paragraph at lines 804--804
+[]|\T1/cmr/m/n/10.95 No sta-tis-ti-cal anal-y-sis re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 865--865
+[]|\T1/cmr/bx/n/10 Inferential
+ []
+
+
+Underfull \hbox (badness 6063) in paragraph at lines 865--865
+[]|\T1/cmr/bx/n/10 Reliability co-
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 865--865
+[]|\T1/cmr/bx/n/10 Code/data re-
+ []
+
+
+Underfull \hbox (badness 1107) in paragraph at lines 865--865
+[]|\T1/cmr/m/n/10 Ÿ2 Data foun-da-
+ []
+
+
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 890--890
+[]|\T1/cmr/bx/n/10 Reliability co-ef-fi-
+ []
+
+
+
+[33]
+
+[34]
+
+[35] (./main.bbl
+
+[36]
+
+[37]
+
+[38]
+Underfull \hbox (badness 1838) in paragraph at lines 288--294
+[]\T1/cmr/m/n/10.95 Jared Moore, De-clan Grabb, William Ag-new, Kevin Kly-man, 
+Ste-vie Chan-cel-lor,
+ []
+
+
+
+[39]
+
+[40])
+
+[41] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: F92F6057DFFD322BA426B9AB6DCEF140;11591.
  ) 
 Here is how much of TeX's memory you used:
- 1294 strings out of 473190
- 21120 string characters out of 5715800
- 408497 words of memory out of 5000000
- 24585 multiletter control sequences out of 15000+600000
- 562477 words of font info for 48 fonts, out of 8000000 for 9000
+ 10919 strings out of 473190
+ 166207 string characters out of 5715800
+ 584679 words of memory out of 5000000
+ 33848 multiletter control sequences out of 15000+600000
+ 578132 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,181b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on main.pdf (1 page, 39512 bytes).
+ 75i,9n,79p,1833b,559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></us
+r/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/
+local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/lo
+cal/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/
+texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/te
+xlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texl
+ive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/
+2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
+25/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025
+/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/2025/t
+exmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (41 pages, 483899 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 16 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 874 PDF objects out of 1000 (max. 8388607)
+ 674 compressed objects within 7 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 
