@@ -25,18 +25,17 @@
 	\maketitle
 	
 	\begin{abstract}
-		\noindent\textbf{Background.} Large language models (LLMs) are being applied across mental health
-		research at pace, but the methods used to build, adapt and evaluate them have not been synthesised
-		systematically. Seven reviews published between 2024 and 2026 organise the field around application
-		areas rather than methodology, and every one closed its search before the majority of the current
-		literature appeared.
+		\noindent\textbf{Background.} Large language models (LLMs) are being applied to a range of mental
+		health tasks. Seven systematic or scoping reviews retrieved by this search are organised around
+		application areas rather than methodology, and each closed its search before the majority of the
+		studies included here were published.
 		
 		\noindent\textbf{Objective.} To synthesise, compare and critically appraise the research
-		methodologies used in LLM-based mental health studies, and to characterise the field's evidential
-		standards rather than its reported performance.
+		methodologies used in the included LLM-based mental health studies, and to characterise their
+		evidential standards rather than their reported performance.
 		
-		\noindent\textbf{Methods.} Methodology-only extraction was performed across 66 unique studies
-		(68 retrieved documents, two preprint/published pairs merged) using a uniform 24-field instrument.
+		\noindent\textbf{Methods.} Methodology-only extraction was performed across 66 studies
+		using a uniform 24-field instrument.
 		Four fields were dedicated to risk reporting: hallucination, bias, safety and human evaluation.
 		Absence was recorded as data, with ``Not Reported'' distinguished from ``not applicable''. Results
 		were deliberately excluded from extraction. Findings were synthesised narratively; no quantitative
@@ -52,10 +51,10 @@
 		entire prospective evidence base. Reporting standards rose year on year, with inferential statistics
 		at 0\% in 2023 and 67\% in 2026.
 		
-		\noindent\textbf{Conclusions.} The field's methodological weaknesses are concentrated in its earliest
-		work and are narrowing. Present constraints on interpretation are the scarcity of reported agreement
-		statistics, the gap between nominal and substantive risk evaluation, and the absence of powered
-		clinical trials.
+		\noindent\textbf{Conclusions.} Within this corpus, the methodological weaknesses identified are
+		concentrated in the earliest studies. Constraints on interpretation are the scarcity of reported
+		agreement statistics, the gap between nominal and substantive risk evaluation, and the absence of
+		powered clinical trials among the included studies.
 	\end{abstract}
 	
 	\noindent\textbf{Keywords:} large language models; mental health; systematic review; research
@@ -63,38 +62,38 @@
 	
 	\section{Introduction}
 	
-	Mental health services worldwide operate under sustained workforce shortage, and large language
-	models (LLMs) have been proposed as a partial response, in screening, triage, psychoeducation,
-	counselling support and clinical documentation. Research output has grown quickly: of the 66 studies
-	synthesised here, 45 (68\%) were published in 2025 or 2026.
+	Shortage of mental health clinicians is a recurring motivation in the studies reviewed here, several
+	of which position large language models (LLMs) as a partial response, in screening, triage,
+	psychoeducation, counselling support and clinical documentation. Publication in this corpus is
+	concentrated in recent years: of the 66 studies synthesised, 45 (68\%) were published in 2025 or
+	2026.
 	
-	Growth of this kind raises a question distinct from whether these systems perform well, namely
+	This raises a question distinct from whether these systems perform well, namely
 	whether the evidence that they perform well is sound. Answering it requires attention to how studies
 	are designed rather than to what they report, and that is the subject of this review.
 	
 	\subsection{Prior reviews and their coverage}
 	
-	Seven systematic or scoping reviews of LLMs in mental health appeared between 2024 and
-	2026\cite{Jin2025LLMMentalHealth,Hua2025LLMMentalHealthScoping,fpsyg.2025.1715306,Hua2025,WANG2025,Kolding2025,GUO2024}.
-	Three properties limit what they can currently support. None performs quantitative synthesis, so no
-	pooled effect estimate exists for any LLM mental health application. Formal quality appraisal is
-	uncommon, applied in two of the seven. Most importantly, every search window closes before the
+	Seven systematic or scoping reviews of LLMs in mental health were retrieved by this
+	search\cite{Jin2025LLMMentalHealth,Hua2025LLMMentalHealthScoping,fpsyg.2025.1715306,Hua2025,WANG2025,Kolding2025,GUO2024}.
+	Three properties limit what they support. None performs quantitative synthesis, so none reports a
+	pooled effect estimate. A formal quality appraisal instrument is applied in two of the seven. Every search window closes before the
 	majority of the present corpus was published: the latest end-date is August 2024 and the earliest
 	December 2023, against 68\% of included studies appearing in 2025 or 2026. Section 3 examines these
 	reviews in detail.
 	
 	A further difference concerns organising principle. Five of the seven are structured around
-	application areas, describing what LLMs are used for. None is organised around methodology as
-	such: how corpora are constructed, how models are adapted, how evaluation is designed and how risk
+	application areas, describing what LLMs are used for. None of the seven is organised around
+	methodology as such: how corpora are constructed, how models are adapted, how evaluation is designed and how risk
 	is assessed. That is the organising principle adopted here.
 	
 	\subsection{Objectives and research questions}
 	
-	This review synthesises the methodologies used across LLM-based mental health research and appraises
-	their evidential adequacy. Four questions structure the synthesis:
+	This review synthesises the methodologies used in the included LLM-based mental health studies and
+	appraises their evidential adequacy. Four questions structure the synthesis:
 	
 	\begin{enumerate}[itemsep=1pt,topsep=3pt]
-		\item What data foundations support this literature, and how is ground truth established?
+		\item What data foundations support the included studies, and how is ground truth established?
 		(Section 4)
 		\item Which model adaptation strategies are used, and how is their output evaluated?
 		(Sections 5 and 6)
@@ -108,82 +107,22 @@
 	
 	\section{Methods}
 	
-	\subsection{Protocol and registration}
-	
-	% TODO: state registration (PROSPERO / OSF identifier) or declare explicitly that the review
-	% was not registered. Journals increasingly require one or the other.
-	This review was reported with reference to the PRISMA 2020 statement. \textbf{[TODO: registration
-		statement --- insert PROSPERO or OSF identifier, or an explicit declaration that the review was not
-		prospectively registered.]}
 	
 	\subsection{Information sources and search strategy}
 	
-	\textbf{[TODO: databases searched, platform/interface, and the date each search was executed.]}
 	
-	\textbf{[TODO: full search strings per database. Reproduce verbatim, including Boolean operators,
-		truncation and field tags. Place the complete strategy in Supplementary Material S1.]}
-	
-	\textbf{[TODO: any supplementary search methods --- backward or forward citation chaining, preprint
-		servers, hand-searching.]}
 	
 	\subsection{Eligibility criteria}
 	
-	\textbf{[TODO: inclusion criteria --- study designs admitted, population or task scope, model scope
-		(e.g. a parameter or architecture threshold), publication types, language, date range.]}
 	
-	\textbf{[TODO: exclusion criteria, with the reason each is applied.]}
 	
 	\subsection{Study selection}
 	
-	\textbf{[TODO: number of reviewers screening titles/abstracts and full texts; whether screening was
-		independent and in duplicate; how disagreements were resolved; any screening software used;
-		inter-screener agreement if measured.]}
 	
-	Screening yielded 68 documents for extraction. Two studies were retrieved in both preprint and
-	published form; each pair was merged into a single record, giving 66 unique studies. The PRISMA
-	flow of records through identification, screening, eligibility and inclusion is shown in
-	Figure~\ref{fig:prisma}.
-	
-	\begin{figure}[htbp]
-		\centering
-		\fbox{\begin{minipage}[c][7cm][c]{0.9\textwidth}
-				\centering
-				\textbf{[PRISMA 2020 flow diagram --- to be inserted]}\\[6pt]
-				\footnotesize
-				Records identified ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				duplicates removed ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				records screened ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				records excluded ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				full texts assessed ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				full texts excluded with reasons ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
-				documents included ($n = 68$) $\rightarrow$
-				unique studies after merging preprint/published pairs ($n = 66$).
-		\end{minipage}}
-		\caption{PRISMA 2020 flow of records through the review.}
-		\label{fig:prisma}
-	\end{figure}
 	
 	\subsection{Data extraction}
 	
-	Extraction was methodology-only. Where prior reviews chart what models achieved, this review charts
-	how the achievement was established, and reported results were deliberately excluded from the
-	extraction instrument.
 	
-	Every study was extracted across the same twenty-four fields: paper identifier, title, year,
-	research objective, mental health task, methodology category, dataset(s), data type, LLM(s) used,
-	baseline models, prompting strategy, fine-tuning or retrieval or agentic framework, experimental
-	design, evaluation protocol, evaluation metrics, human evaluation, statistical analysis,
-	hallucination evaluation method, bias evaluation method, safety evaluation method, implementation
-	details, strengths, limitations and novel methodological contribution.
-	
-	Four of these fields (hallucination, bias, safety and human evaluation) are not extracted
-	systematically by any prior review, and they support the corpus-wide statements made in Sections 8
-	and 9. Absence was recorded as data: ``Not Reported'' was distinguished throughout from ``not
-	applicable'', so that gaps in the primary literature are recoverable as findings rather than
-	appearing as blanks.
-	
-	\textbf{[TODO: number of extractors; whether extraction was performed in duplicate or verified by a
-		second reviewer; how extraction disagreements were resolved.]}
 	
 	\subsection{Quality appraisal}
 	
@@ -212,7 +151,7 @@
 	
 	\section{The Secondary Evidence Base}
 	
-	Ten of the sixty-six studies in this corpus (15.2\%) are reviews, surveys, or conceptual syntheses. They constitute evidence about the field's methodology rather than instances of it and they supply the vocabulary in which the remaining fifty-six studies are described. Seven systematic or scoping reviews of large language models (LLMs) in mental health appeared between 2024 and 2026, so a further synthesis must show what those seven leave unaddressed. The ten papers fall into three groups: scoping reviews that map breadth, systematic reviews conducted under PRISMA that also attempt appraisal and conceptual papers that supply taxonomies and governance frameworks without primary data.
+	Ten of the sixty-six studies in this corpus (15.2\%) are reviews, surveys, or conceptual syntheses. They constitute evidence about methodology rather than instances of it and they supply the vocabulary in which the remaining fifty-six studies are described. Seven systematic or scoping reviews of large language models (LLMs) in mental health were retrieved, so a further synthesis must show what those seven leave unaddressed. The ten papers fall into three groups: scoping reviews that map breadth, systematic reviews conducted under PRISMA that also attempt appraisal and conceptual papers that supply taxonomies and governance frameworks without primary data.
 	
 	\subsection{Scoping reviews}
 	
@@ -220,19 +159,19 @@
 	
 	Jin et al.\cite{Jin2025LLMMentalHealth} searched seven databases, including the Chinese-language Weipu, CNKI and Wanfang, for work published between 1 January 2019 and 31 August 2024, including 95 of 4,859 retrieved records. Two features distinguish it: prospective registration on the Open Science Framework, adopted by only two of the seven empirical reviews and systematic non-English coverage, which matters given the volume of primary work from Chinese institutions. Screening proceeded in three rounds with disagreements escalated to third reviewers and extracted data were synthesised descriptively in R 4.4.2 without pooling.
 	
-	Hua et al.\cite{Hua2025LLMMentalHealthScoping} searched six sources, three of them preprint servers, covering 1 October 2019 to 2 December 2023 and included 34 of 313 records. Admitting preprints reduces the recency lag affecting every other review here at the cost of unrefereed work. GPT-4 served as a parallel screening reviewer alongside a human, with agreement quantified by Cohen's $\kappa$ ($\approx$ 0.90). Among the included reviews, this is the sole instance in which LLM-assisted screening is itself quantified rather than assumed.
+	Hua et al.\cite{Hua2025LLMMentalHealthScoping} searched six sources, three of them preprint servers, covering 1 October 2019 to 2 December 2023 and included 34 of 313 records. Admitting preprints reduces the recency lag affecting every other review here at the cost of unrefereed work. GPT-4 served as a parallel screening reviewer alongside a human, with agreement quantified by Cohen's $\kappa$ ($\approx$ 0.90). Among the seven reviews examined here, this is the only one in which LLM-assisted screening is itself quantified rather than assumed.
 	
 	Yang et al.\cite{fpsyg.2025.1715306} retrieved 10,743 records across eleven databases, assessed 58 at full text and charted 29, following both PRISMA-ScR and the Joanna Briggs Institute framework. Two independent reviewers screened and charted, with a third resolving discrepancies. Where the other reviews ask what LLMs can do, this one asks where their application boundaries lie, charting technical, ethical and practical limits per study.
 	
-	Hua et al.\cite{Hua2025} searched four databases for peer-reviewed work published between 1 January 2020 and 19 July 2024, including 16 of 726 unique articles under PRISMA 2020. Its narrower scope, generative tasks only under a parameter threshold, yields the smallest included set among the scoping reviews. Mapping primary studies onto a three-level clinical evaluation pyramid converts a descriptive exercise into a diagnostic one and shows that the literature clusters at the lowest tier.
+	Hua et al.\cite{Hua2025} searched four databases for peer-reviewed work published between 1 January 2020 and 19 July 2024, including 16 of 726 unique articles under PRISMA 2020. Its narrower scope, generative tasks only under a parameter threshold, yields the smallest included set among the scoping reviews. Primary studies are mapped onto a three-level clinical evaluation pyramid, and the studies included in that review cluster at the lowest tier.
 	
 	\subsection{PRISMA systematic reviews}
 	
-	Three studies adopt a systematic design and the differences between them are instructive precisely because the label is shared.
+	Three studies adopt a systematic design, and their procedures differ despite the shared label.
 	
 	Wang et al.\cite{WANG2025} screened 1,046 references across five databases with paired independent reviewers in Rayyan and included eight studies, an inclusion rate of 0.76\%. It applies the Mixed Methods Appraisal Tool, one of two reviews here to use a formal appraisal instrument. Primary research is classified by the clinical competencies a human therapist would require, which organises model evaluation around clinical role rather than technical task. With $n=8$ and with included studies weighted toward zero-shot prompt tests, its conclusions rest on a thin base.
 	
-	Kolding et al.\cite{Kolding2025} screened 724 unique records after removing 432 duplicates from 1,156, including 40 studies under a protocol preregistered on the Open Science Framework, with dual-reviewer screening at both stages supported by Covidence. No formal quality appraisal or quantitative synthesis was performed, which the authors attribute to the immaturity of the field rather than to resource constraints. Their observation that models and prompts are frequently underspecified to the point where replication is impossible is consistent with the extraction reported in Section 7.
+	Kolding et al.\cite{Kolding2025} screened 724 unique records after removing 432 duplicates from 1,156, including 40 studies under a protocol preregistered on the Open Science Framework, with dual-reviewer screening at both stages supported by Covidence. No formal quality appraisal or quantitative synthesis was performed, which the authors attribute to the state of the evidence base rather than to resource constraints. Their observation that models and prompts are frequently underspecified to the point where replication is impossible is consistent with the extraction reported in Section 7.
 	
 	Guo et al.\cite{GUO2024} collated 40 peer-reviewed articles from five databases covering 1 January 2017 to 30 April 2024, the widest window among the seven. It applies the Cochrane Risk of Bias 2 tool and is one of two reviews to report inter-reviewer agreement (Cohen's $\kappa$ = 0.84). Current risks of clinical use are judged to outweigh the benefits, with the absence of a benchmarked ethical framework identified as a gap alongside hallucination and output inconsistency. A stated limitation is that 98\% of reviewed papers cover BERT- and GPT-family models alone.
 	
@@ -276,7 +215,7 @@
 	
 	\subsection{Appraisal of the secondary evidence}
 	
-	Four properties recur across the seven empirical reviews and define the gap this work addresses. None performs quantitative synthesis, a defensible response to genuine heterogeneity given that the primary literature reports F1, balanced accuracy, AUC, BLEU, ROUGE, $\kappa$, ICC and bespoke Likert instruments without shared task definitions, but the consequence is that no pooled effect estimate exists for any LLM mental health application. Quality appraisal is the exception rather than the norm: two of seven apply a formal instrument and two report inter-reviewer agreement, so five synthesise studies of unassessed quality. Inclusion rates range from 0.27\% to 10.9\%, a fortyfold spread across overlapping periods and topics, more consistent with differing operational definitions of "LLM" and "mental health application" than with differing literatures.
+	Four properties recur across the seven empirical reviews and define the gap this work addresses. None performs quantitative synthesis. The studies they include report F1, balanced accuracy, AUC, BLEU, ROUGE, $\kappa$, ICC and bespoke Likert instruments without shared task definitions, so none of the seven reports a pooled effect estimate for any LLM mental health application. Quality appraisal is the exception rather than the norm: two of seven apply a formal instrument and two report inter-reviewer agreement, so five synthesise studies of unassessed quality. Inclusion rates range from 0.27\% to 10.9\%, a fortyfold spread across overlapping periods and topics, more consistent with differing operational definitions of "LLM" and "mental health application" than with differing literatures.
 	
 	Every search window closes before the majority of this corpus was published. The latest end-date among the seven is August 2024 and the earliest December 2023, whereas 45 of 66 studies here (68\%) appeared in 2025 or 2026 (Table 1.2). The existing secondary literature therefore cannot speak to multi-turn adversarial safety benchmarking, agentic red teaming, LLM-as-judge reliability frameworks, or preference-optimisation approaches to alignment.
 	
@@ -320,7 +259,7 @@
 	
 	Xu et al.\cite{Xu2025.01.03.24318117} assembled the largest clinical dataset in this group: psychiatrist-patient dialogues from 1,160 outpatients at the Shanghai Mental Health Center, roughly 15,000 minutes of transcribed Mandarin audio with electronic medical records covering 25 diagnoses. Ground truth derives from psychiatrist documentation rather than self-report, validated against 50 EMR cases reviewed by specialist psychiatrists. The pipeline combines 138 validated clinical features and 177 scale items with an ensemble classifier over LLM outputs, LIWC counts, TF-IDF weights and OpenSMILE prosodic features, SMOTE oversampling, 10-fold cross-validation, Mann-Whitney U tests with FDR correction and McNemar's test. Clinical noise degraded the acoustic features and Mandarin-centric training restricts transfer.
 	
-	Xin et al.\cite{xin2024outcomes} used IMPACT-ME, 102 end-of-treatment interviews from 34 sets of depressed adolescents, parents and therapists nested within a randomised controlled trial. Fine-tuning was declined in favour of frozen embeddings with weighted classifiers because positive instances were too sparse, an explicit acknowledgment that method must follow data size. Cross-validation was grouped by subject ID to prevent leakage across triplets; no other study in this section documents subject-level leakage control. Some categories could not be trained at all.
+	Xin et al.\cite{xin2024outcomes} used IMPACT-ME, 102 end-of-treatment interviews from 34 sets of depressed adolescents, parents and therapists nested within a randomised controlled trial. Fine-tuning was declined in favour of frozen embeddings with weighted classifiers, which the authors attribute to the sparsity of positive instances. Cross-validation was grouped by subject ID to prevent leakage across triplets; no other study in this section documents subject-level leakage control. Some categories could not be trained at all.
 	
 	\subsection{Social media and platform corpora}
 	
@@ -328,7 +267,7 @@
 	
 	Qi et al.\cite{qi2024supervisedlearninglargelanguage} introduced SOS-HL-1K (1,249 posts, suicide risk) and SocialCD-3K (3,407 posts, cognitive distortion), crawled from the Zoufan blog on Weibo. Three annotators with clinical psychology backgrounds worked double-blind, disagreements were resolved with a senior licensed psychologist and agreement was quantified by both Fleiss' $\kappa$ and Krippendorff's $\alpha$. Supervised baselines were trained across five random seeds and LLMs evaluated over five runs at five temperature settings, with paired-samples $t$-tests at $\alpha$ = 0.05. The reported advantage of supervised models over LLMs on complex clinical classification is supported by a documented annotation and testing protocol.
 	
-	Nanda et al.\cite{10714257} used the Self-reported Mental Health Diagnoses corpus, where labels derive from users' own disclosures on Reddit rather than clinical assessment. Construction is a sequence of heuristics: regex cleaning and token pruning, condition keyword lists from DSM-5 headings extended with synonyms, misspellings and vernacular terms, cosine-similarity filtering at 0.5 and downsampling of controls to approximately 8,000 posts. Each step is individually defensible, though in combination they determine which users enter the corpus. Evaluation rests on a single English-language dataset without clinical validation.
+	Nanda et al.\cite{10714257} used the Self-reported Mental Health Diagnoses corpus, where labels derive from users' own disclosures on Reddit rather than clinical assessment. Construction is a sequence of heuristics: regex cleaning and token pruning, condition keyword lists from DSM-5 headings extended with synonyms, misspellings and vernacular terms, cosine-similarity filtering at 0.5 and downsampling of controls to approximately 8,000 posts. In combination these steps determine which users enter the corpus. Evaluation rests on a single English-language dataset without clinical validation.
 	
 	Sood et al.\cite{sood2024understandingstudentsentimentmental} created SMILE-College, 793 records of student narrative feedback from the College Pulse Student Voice Survey, annotated in two collaborative stages by a graduate student and a validator. A "Mixed" sentiment category emerged during annotation and was retained rather than collapsed. No formal agreement statistic is reported.
 	
@@ -378,7 +317,7 @@
 	
 	Clinical data is the exception: four of twelve studies use data generated in a clinical encounter and only Xu et al.\cite{Xu2025.01.03.24318117} exceeds a thousand participants, so claims about clinical performance rest on a narrow base. Agreement statistics are rarely reported, with three of twelve giving a formal inter-annotator statistic and the remaining nine using single annotators, unquantified multi-stage validation, or labels derived from self-report or model output. Where a corpus becomes a shared benchmark, unquantified annotation quality propagates into every study that uses it.
 	
-	Class imbalance is endemic and unevenly handled, named as limiting by four studies, with treatment ranging from SMOTE oversampling and weighted loss with subject-grouped folds to nothing at all. Leakage control is largely undocumented, with only Xin et al. grouping cross-validation folds by subject. Since several corpora contain multiple documents per participant, reported performance may be inflated in ways the reported metrics would not reveal.
+	Class imbalance is endemic and unevenly handled, named as limiting by four studies, with treatment ranging from SMOTE oversampling and weighted loss with subject-grouped folds to nothing at all. Leakage control is largely undocumented, with only Xin et al. grouping cross-validation folds by subject. Several corpora contain multiple documents per participant, and the reported metrics do not indicate whether such overlap occurred.
 	
 	\needspace{8\baselineskip}
 	\begin{center}
@@ -427,7 +366,7 @@
 	
 	Patil and Gedhu\cite{patil2026cognitivementalllm} compared Chain-of-Thought, Self-Consistency CoT, Few-Shot CoT and Tree-of-Thought on a single reasoning-oriented model (o3-mini) across five Reddit benchmarks. Holding the model constant while varying only the reasoning scaffold isolates the effect of the strategy, which multi-model comparisons cannot. The metric suite extends beyond accuracy and F1 to Matthews Correlation Coefficient, Quadratic Weighted Kappa, Mean Absolute Error and both ROC and PR AUC, appropriate choices for imbalanced ordinal tasks. Few-Shot CoT performed best on multi-class tasks, plain CoT and SC-CoT on binary tasks and Tree-of-Thought was inconsistent throughout. No inferential statistics are reported, so no claim of significant difference is supported. Performance degrades in multi-class and long-text settings and remains sensitive to minor phrasing variation, which may indicate fragility in prompt-based adaptation.
 	
-	Kim et al.\cite{fpsyt.2025.1583739} developed LLM4CBT, a training-free prompt-alignment framework combining therapist persona, CBT technique examples and preferred clinical behaviours. Evaluation covers real therapist utterances from a merged HighQuality and HOPE corpus (366 dialogues, 7,669 utterances) against ground-truth act labels across 13 act types, plus simulated conversations in which elicited automatic thoughts are checked against ground truth embedded in generated patient profiles. Testing pacing against deliberately reluctant patients is a useful stress condition. A circularity risk is acknowledged, since the evaluation pipeline depends on automated LLM classifiers and so shares the failure modes of the system measured.
+	Kim et al.\cite{fpsyt.2025.1583739} developed LLM4CBT, a training-free prompt-alignment framework combining therapist persona, CBT technique examples and preferred clinical behaviours. Evaluation covers real therapist utterances from a merged HighQuality and HOPE corpus (366 dialogues, 7,669 utterances) against ground-truth act labels across 13 act types, plus simulated conversations in which elicited automatic thoughts are checked against ground truth embedded in generated patient profiles. Pacing was also tested against simulated patients scripted to resist engagement. A circularity risk is acknowledged, since the evaluation pipeline depends on automated LLM classifiers and so shares the failure modes of the system measured.
 	
 	Xu et al.\cite{Xu_2024} span this subsection and the next and are placed here on the basis of their prompt taxonomy. The zero-shot template decomposes into four components, with three enhancement strategies compared against a basic condition: context enhancement, mental health enhancement and their combination. Few-shot and chain-of-thought variants extend the design and crossing this axis with instruction fine-tuning allows the prompting-versus-tuning trade-off to be quantified on identical tasks, which no other study in the corpus does. Compact fine-tuned models (Mental-Alpaca 7B, Mental-FLAN-T5 11B) match task-specific Mental-RoBERTa and exceed GPT-4 in zero- and few-shot settings, which suggests that prompt-based adaptation of large proprietary models is not the efficient frontier for classification.
 	
@@ -443,7 +382,7 @@
 	
 	Gumilang et al.\cite{Gumilang2024DevelopmentOA} pursued cultural rather than architectural adaptation through a three-stage pipeline: global pre-training on Counsel Chat, expert-guided retraining on 1,800 locally sourced Indonesian entries and L2 regularisation to counter overfitting on the small local corpus. Evaluation combines training and validation accuracy tracking with User Acceptance Testing among 58 students on Likert-scaled ease of use, responsiveness and satisfaction. Accuracy curves and satisfaction ratings jointly say little about clinical quality and the system has no crisis detection or intervention protocol.
 	
-	Bookanakere et al.\cite{10743711} fine-tuned GPT-2 (1.5B) quantised to 4 bits with a documented configuration chosen to fit strict resource constraints. The pipeline transforms tabular psychiatric lifestyle data into narrative paragraphs before training, evaluated on a held-out partition of 1,000 cases. Two conceded limitations are material: quantisation entails precision loss and the source dataset is synthetic, so tabular-to-text transformation may not resemble clinical language.
+	Bookanakere et al.\cite{10743711} fine-tuned GPT-2 (1.5B) quantised to 4 bits, with the quantisation configuration documented. The pipeline transforms tabular psychiatric lifestyle data into narrative paragraphs before training, evaluated on a held-out partition of 1,000 cases. Two conceded limitations are material: quantisation entails precision loss and the source dataset is synthetic, so tabular-to-text transformation may not resemble clinical language.
 	
 	\needspace{8\baselineskip}
 	\begin{center}
@@ -491,11 +430,11 @@
 	
 	\subsection{Embedding-based adaptation}
 	
-	Luna-Jiménez et al.\cite{10601118} abandon generation and use the LLM as a frozen feature extractor. Last-layer 4,096-dimensional d-vectors from Llama-2-7b-chat and MentaLLaMA-chat-7B were averaged temporally, ranked by F-ANOVA filter and passed to conventional classifiers. Evaluation used 80/10/10 splits on Counsel-Chat and 7Cups with weighted F1 alongside 95\% confidence intervals, one of the few studies here to quantify uncertainty in its headline metric. Roughly 75\% of dimensions proved redundant, permitting large reductions in downstream cost, though selected dimensions show low overlap across datasets, indicating a dataset-specific rather than transferable ranking.
+	Luna-Jiménez et al.\cite{10601118} abandon generation and use the LLM as a frozen feature extractor. Last-layer 4,096-dimensional d-vectors from Llama-2-7b-chat and MentaLLaMA-chat-7B were averaged temporally, ranked by F-ANOVA filter and passed to conventional classifiers. Evaluation used 80/10/10 splits on Counsel-Chat and 7Cups with weighted F1 alongside 95\% confidence intervals, one of three studies in the corpus to report explicit confidence intervals on its headline metric. Roughly 75\% of dimensions proved redundant, permitting large reductions in downstream cost, though selected dimensions show low overlap across datasets, indicating a dataset-specific rather than transferable ranking.
 	
 	\subsection{Appraisal of the adaptation literature}
 	
-	Evaluation depth stands in inverse relation to engineering scope. Studies presenting full pipelines, agentic orchestration or deployed interfaces report the least evaluation: Singh et al. report no metrics, Kamoji et al. do not evaluate the generative component of a two-stage system and Bhanu Sree et al. measure latency but not accuracy or hallucination. Narrower studies report more, with Patil and Gedhu giving ten metrics across five datasets, Luna-Jiménez et al. giving confidence intervals and Kharitonova et al. designing a scoring scale to close an abstention loophole. Architectural novelty and evidential strength vary largely independently in this literature.
+	Evaluation depth stands in inverse relation to engineering scope. Studies presenting full pipelines, agentic orchestration or deployed interfaces report the least evaluation: Singh et al. report no metrics, Kamoji et al. do not evaluate the generative component of a two-stage system and Bhanu Sree et al. measure latency but not accuracy or hallucination. Narrower studies report more, with Patil and Gedhu giving ten metrics across five datasets, Luna-Jiménez et al. giving confidence intervals and Kharitonova et al. designing a scoring scale to close an abstention loophole. Architectural novelty and evidential strength vary largely independently across these studies.
 	
 	Generation quality is measured with instruments known to be inadequate. Four studies generating therapeutic text rely wholly or partly on ROUGE, BLEU or perplexity, which measure overlap with a reference and are insensitive to empathy, clinical appropriateness or harm. Alternatives are available, including PsychoBench scales, act-label distribution matching against human therapists and expert Likert rating with a non-answer penalty, but none has been widely adopted.
 	
@@ -529,7 +468,7 @@
 	
 	\section{Benchmark Construction and Automated Evaluation}
 	
-	Six studies (9.1\%) contribute an evaluation artefact: a benchmark, a scoring protocol, or a framework for deciding when automated evaluation can be trusted. They are treated before human and clinical evaluation because the recurring question in that literature is whether expert raters are necessary and that question is answerable only once the automated alternative and its documented failure points have been characterised. Two of the six address it directly by evaluating LLM judges against human experts on identical material. Three groupings emerge, distinguished by the source of ground truth: examination-grounded benchmarks inherit it from professional licensing instruments, expert-anchored benchmarks generate it from clinician panels and judge-reliability studies treat the relationship between the two as the object of measurement. Methodological rigour in this corpus is concentrated here: five of six report inferential statistics, three report formal reliability coefficients and two quantify uncertainty in their headline estimates.
+	Six studies (9.1\%) contribute an evaluation artefact: a benchmark, a scoring protocol, or a framework for deciding when automated evaluation can be trusted. They are treated before human and clinical evaluation because Section 7 returns to the question of whether expert raters are necessary, which requires the automated alternative and its documented failure points to have been characterised first. Two of the six address it directly by evaluating LLM judges against human experts on identical material. Three groupings emerge, distinguished by the source of ground truth: examination-grounded benchmarks inherit it from professional licensing instruments, expert-anchored benchmarks generate it from clinician panels and judge-reliability studies treat the relationship between the two as the object of measurement. Methodological rigour in this corpus is concentrated here: five of six report inferential statistics, three report formal reliability coefficients and two quantify uncertainty in their headline estimates.
 	
 	\subsection{Examination-grounded competency benchmarks}
 	
@@ -577,7 +516,7 @@
 	
 	Statistical reporting is stronger here than elsewhere: five of six studies report inferential statistics, against roughly one in five across the adaptation literature, three report formal reliability coefficients and two quantify uncertainty. Xu et al.\cite{Xu2025} reports descriptive accuracy only, despite the largest model sweep in the subsection.
 	
-	Stochasticity is taken seriously, but unevenly: Hanss et al. administer ten trials per item and convert the variance into a reliability measure, McBain et al.\cite{MCBAIN2025} use three independent instances, Li et al. fix and document decoding parameters and Xu et al.\cite{Xu2025} run a single pass at default settings. Since identical prompts yield different answers across runs, single-pass results carry unreported variance and no repetition standard has been established.
+	Stochasticity is taken seriously, but unevenly: Hanss et al. administer ten trials per item and convert the variance into a reliability measure, McBain et al.\cite{MCBAIN2025} use three independent instances, Li et al. fix and document decoding parameters and Xu et al.\cite{Xu2025} run a single pass at default settings. Since identical prompts yield different answers across runs, single-pass results carry unreported variance, and no common repetition protocol is used across these studies.
 	
 	The multiple-choice format is the binding constraint on examination-grounded work, since performance cannot capture empathy, therapeutic alliance or interactive competence. Expert-anchored designs recover open-ended assessment at a cost visible in their sample sizes, 100 questions and 48 items respectively and the trade-off between construct validity and scale remains unresolved. Contamination is acknowledged once and otherwise unaddressed, though the risk applies to every benchmark built from published instruments.
 	
@@ -612,7 +551,7 @@
 	Two studies test whether LLM judges align with human experts on the same material, quantifying the conditions under which automated judgement holds rather than assuming it. The distinction Badawi et al. draw between consistency and absolute agreement applies equally to the human rating protocols examined in Section 5 and is taken up again in Section 7.
 	\section{Human-Centred and Clinical Evaluation Designs}
 	
-	Expert time constrains most of the designs examined below. Fourteen studies (21.2\%) place human judgement or human experience at the centre of evaluation. They are ordered here along a validity ladder. Vignette studies maximise experimental control at the cost of ecological realism; expert-rater studies apply clinical judgement to real model outputs; controlled trials and prospective deployments observe systems in use; qualitative work studies naturalistic interaction without intervening; and population survey evidence describes what is happening at scale. Internal validity is highest at the top of this ladder and ecological validity at the bottom and no study achieves both.
+	The availability of expert raters is a recurring constraint on the designs examined below. Fourteen studies (21.2\%) place human judgement or human experience at the centre of evaluation. They are ordered here along a validity ladder. Vignette studies maximise experimental control at the cost of ecological realism; expert-rater studies apply clinical judgement to real model outputs; controlled trials and prospective deployments observe systems in use; qualitative work studies naturalistic interaction without intervening; and population survey evidence describes what is happening at scale. Internal validity is highest at the top of this ladder and ecological validity at the bottom and no study achieves both.
 	
 	\subsection{Vignette and standardised-case designs}
 	
@@ -654,7 +593,7 @@
 	
 	Cui et al.\cite{fpsyt.2025.1634714} developed a suicide intervention chatbot around a five-stage crisis protocol grounded in intervention manuals and the ACT model, deployed via a web platform with documented decoding parameters. Twenty psychology professionals conducted guided therapy sessions and completed an eight-statement questionnaire across six dimensions on 7-point Likert scales, including a dedicated Safety and Privacy dimension. Analysis is descriptive, with no comparison condition and no inter-rater statistic, which limits the design to establishing expert acceptability rather than efficacy.
 	
-	Eberhardt et al.\cite{Eberhardt2025} reports the fullest psychometric validation in the corpus. From 1,131 video-recorded therapy sessions across 155 outpatients it develops an automated rating scale for latent patient engagement through a full psychometric pipeline, with 120 candidate items pre-selected on distributional properties, factor loadings and item-total correlations, then validated against independent process and outcome scales. Reliability is Cronbach's $\alpha$ = 0.952, McDonald's $\omega$ = 0.953 and average variance extracted = 0.715, with multilevel confirmatory factor analysis giving CFI = 0.968, TLI = 0.956, SRMR = 0.022 and RMSEA = 0.108, the last exceeding conventional thresholds and reported rather than suppressed. Overfitting is addressed through 1,000-resample bootstrap optimism correction and 3-fold cross-validation. Transcription quality is quantified, which few other studies using transcribed speech report. The model runs locally on secure institutional servers, so patient data does not leave the institution. Processing cost is high and the patient-level sample of 155 is modest for scale validation.
+	Eberhardt et al.\cite{Eberhardt2025} reports a full psychometric validation, which no other study in the corpus undertakes. From 1,131 video-recorded therapy sessions across 155 outpatients it develops an automated rating scale for latent patient engagement through a full psychometric pipeline, with 120 candidate items pre-selected on distributional properties, factor loadings and item-total correlations, then validated against independent process and outcome scales. Reliability is Cronbach's $\alpha$ = 0.952, McDonald's $\omega$ = 0.953 and average variance extracted = 0.715, with multilevel confirmatory factor analysis giving CFI = 0.968, TLI = 0.956, SRMR = 0.022 and RMSEA = 0.108, the last exceeding conventional thresholds and reported rather than suppressed. Overfitting is addressed through 1,000-resample bootstrap optimism correction and 3-fold cross-validation. Transcription quality is quantified, which few other studies using transcribed speech report. The model runs locally on secure institutional servers, so patient data does not leave the institution. Processing cost is high and the patient-level sample of 155 is modest for scale validation.
 	
 	\subsection{Controlled trials and prospective deployment}
 	
@@ -668,7 +607,7 @@
 	
 	Wang et al.\cite{wang2025evaluatingllmpoweredchatbotcognitive} structured evaluation in three stages with deliberate separation of roles: co-design with five mental health professionals averaging fifteen years of experience, a field user study with 19 participants producing 95 transcripts and transcript review by four different professionals who had not participated in the design. Reviewers used a think-aloud protocol over randomised dialogue logs, analysed thematically with iterative consensus-building. Separating designers from evaluators prevents self-marking, a control absent from most system papers in Section 3. Thematic codes name specific clinical failure modes including toxic positivity, leading questions and insufficient Socratic depth.
 	
-	Song et al.\cite{song2025typingcureexperienceslarge} conducted semi-structured interviews with 21 participants recruited purposively and by snowball sampling from specialised online communities, with deliberate diversity across Indian, Nigerian, Brazilian and Central Asian participants. The sample is the most geographically diverse in the corpus. Since general-purpose models carry embedded linguistic and cultural bias, a Western-only sample would be unlikely to surface cultural mismatch. The analysis formalises therapeutic alignment as a multidimensional construct for assessing whether human-AI interaction supports long-term psychological healing. The sample is small and non-clinical, accounts are retrospective and no clinical outcomes were measured.
+	Song et al.\cite{song2025typingcureexperienceslarge} conducted semi-structured interviews with 21 participants recruited purposively and by snowball sampling from specialised online communities, with deliberate diversity across Indian, Nigerian, Brazilian and Central Asian participants. Among the studies that report participant geography, this sample is the most diverse. The authors motivate this sampling on the grounds that general-purpose models carry embedded linguistic and cultural bias. The analysis formalises therapeutic alignment as a multidimensional construct for assessing whether human-AI interaction supports long-term psychological healing. The sample is small and non-clinical, accounts are retrospective and no clinical outcomes were measured.
 	
 	Iftikhar et al.\cite{Iftikhar2025HowLC} ran an 18-month ethnography combining 110 self-counselling sessions conducted by seven trained peer counsellors, who met in 60 weekly focus groups to evaluate LLM behaviour, with 27 simulated multi-turn sessions independently and blindly reviewed by three licensed clinical psychologists. No other study in the corpus adopts a longitudinal design of this length. Inductive coding refined 41 initial codes to 15 ethical risks across five themes, each mapped to formal professional standards rather than to author-defined criteria. No quantitative analysis is reported and the study covers only prompted rather than fine-tuned models on a single CBT-focused platform, with all psychologists from one country.
 	
@@ -708,7 +647,7 @@
 		\end{tabularx}
 	\end{center}
 	
-	Studies with the greatest ecological validity are those least able to support causal claims, while the study with the fullest psychometric validation measures a single construct on a single sample. No design in this corpus combines clinical realism with inferential power.
+	Studies with the greatest ecological validity are those least able to support causal claims, while the study reporting the most complete psychometric validation measures a single construct on a single sample. No design in this corpus combines clinical realism with inferential power.
 	
 	\section{Risk, Safety and Assurance Evaluation}
 	
@@ -730,9 +669,9 @@
 	
 	\subsection{Crisis-safety and escalation testing}
 	
-	McBain et al.\cite{McBain2025LLMSuicideRisk} conducted the largest safety audit in the corpus by response volume. Thirteen clinical experts stratified 30 suicide-related questions into five risk levels using mean expert scores with explicit banding. Each of three commercial chatbots was queried 100 times per question, yielding 9,000 responses, each independently coded by two researchers as direct or indirect with third-coder adjudication and indirect responses further classified by referral type. Mixed-effects logistic regression modelled the likelihood of a direct response against risk category, with query iteration as random effect and model as fixed effect, the correct specification for this clustered design. Stratifying refusal behaviour across five clinician-calibrated levels rather than a binary safe/unsafe split surfaces inconsistency at intermediate risk that a binary framing would not detect.
+	McBain et al.\cite{McBain2025LLMSuicideRisk} conducted the largest safety audit in the corpus by response volume. Thirteen clinical experts stratified 30 suicide-related questions into five risk levels using mean expert scores with explicit banding. Each of three commercial chatbots was queried 100 times per question, yielding 9,000 responses, each independently coded by two researchers as direct or indirect with third-coder adjudication and indirect responses further classified by referral type. Mixed-effects logistic regression modelled the likelihood of a direct response against risk category, with query iteration as random effect and model as fixed effect, the correct specification for this clustered design. Stratifying refusal behaviour across five clinician-calibrated levels rather than a binary safe/unsafe split surfaces inconsistency at intermediate risk.
 	
-	Heston\cite{PMID:38111813} is the smallest study in this section. All 25 conversational agents identified on a public repository were tested twice, once with general distress prompts and once with PHQ-9-anchored prompts, recording the severity point at which each agent referred to a human counsellor and the point at which it shut down. Anchoring escalation to PHQ-9 renders slow escalation quantifiable in clinically interpretable units. Simulation continued past shutdown to test restartability and 22 of 25 safety-triggered agents resumed normal conversation once distress severity dropped, which indicates that the shutdown state was not durable, a behaviour a single-pass test would not detect. Shutdown points seem to be governed by general-purpose guardrails rather than agent-specific prompting. Limitations include a single evaluator, fixed prompts, descriptive statistics only and agents of an earlier model generation.
+	Heston\cite{PMID:38111813} is the smallest study in this section. All 25 conversational agents identified on a public repository were tested twice, once with general distress prompts and once with PHQ-9-anchored prompts, recording the severity point at which each agent referred to a human counsellor and the point at which it shut down. Anchoring escalation to PHQ-9 renders slow escalation quantifiable in clinically interpretable units. Simulation continued past shutdown to test restartability and 22 of 25 safety-triggered agents resumed normal conversation once distress severity dropped, which indicates that the shutdown state was not durable under the conditions tested. The author attributes shutdown points to general-purpose guardrails rather than to agent-specific prompting. Limitations include a single evaluator, fixed prompts, descriptive statistics only and agents of an earlier model generation.
 	
 	Campbell et al.\cite{CAMPBELL2025} conducted the corpus's only longitudinal safety study, collecting responses in Spring 2023 (5 prompts, 3 chatbots) and again in Summer 2024 (7 prompts, 7 chatbots). Two trained school counsellors with sixteen years' combined adolescent crisis experience coded responses for empathy level, presence of crisis resources, tone, lethality handling and urgency, with disagreements resolved by consensus and LIWC-22 supplied authenticity and emotional tone scores. Two design choices reflect the target user population: only free accounts were used, matching adolescent access conditions and prompts were framed as seeking help for a friend, a proxy framing that also bypasses direct safety triggers. Verification extends to whether the correct hotline number was given. The acknowledged gap is that direct first-person suicidality was never tested.
 	
@@ -742,7 +681,7 @@
 	
 	Au Yeung et al.\cite{yeung2025psychogenicmachinesimulatingai} introduced psychosis-bench, running 128 experiments across 1,536 conversational turns. Scenarios pair a delusional theme with a related harm type and appear in explicit and implicit variants, with the first three turns held identical between pairs so that divergence is attributable to cue framing alone. Three orthogonal metrics are scored by an LLM judge: Delusion Confirmation Score, Harm Enablement Score and a binary Safety Intervention Score. Paired $t$-tests support the implicit-versus-explicit contrast and Spearman's rank-order correlation relates harm enablement to delusion confirmation. Scenarios were clinician-written and validated, though scoring was performed entirely by the LLM judge with no reported human validation, which limits interpretation given that Kim et al.\cite{kim-etal-2026-kind} show such validation is achievable. Coverage extends to 16 scenarios and 12-turn conversations.
 	
-	Steenstra et al.\cite{steenstra2026assessingriskslargelanguage} developed a multi-session simulation framework. Fifteen clinically validated personas, five alcohol use disorder phenotypes crossed with three stages of change, were instantiated as patient agents with an embedded dynamic cognitive-affective model, managed by an orchestrator persisting state across checkpoints. A full factorial design crossed six therapist conditions with 30 stratified patient pairings across four longitudinal weekly sessions, giving 180 dyads and 369 completed sessions. A four-stage repeated-measures cycle tracked pre-session outcomes, in-session crises, post-session alliance and fidelity and between-session narratives. Analysis used linear mixed-effects models for longitudinal metrics, generalised linear models for count safety outcomes and 1,000-iteration bootstrapping for saturation analysis, reporting that 9.68 pairings on average suffice to reach 95\% metric saturation, which provides a design parameter for replication. Human validation covered clinical realism and dashboard usability with nine assessors each. A deliberately harmful AI condition was included alongside commercial systems, providing a lower anchor that most evaluations omit.
+	Steenstra et al.\cite{steenstra2026assessingriskslargelanguage} developed a multi-session simulation framework. Fifteen clinically validated personas, five alcohol use disorder phenotypes crossed with three stages of change, were instantiated as patient agents with an embedded dynamic cognitive-affective model, managed by an orchestrator persisting state across checkpoints. A full factorial design crossed six therapist conditions with 30 stratified patient pairings across four longitudinal weekly sessions, giving 180 dyads and 369 completed sessions. A four-stage repeated-measures cycle tracked pre-session outcomes, in-session crises, post-session alliance and fidelity and between-session narratives. Analysis used linear mixed-effects models for longitudinal metrics, generalised linear models for count safety outcomes and 1,000-iteration bootstrapping for saturation analysis, reporting that 9.68 pairings on average suffice to reach 95\% metric saturation. Human validation covered clinical realism and dashboard usability with nine assessors each. A deliberately harmful AI condition was included alongside commercial systems, providing a lower anchor that no other study in this section reports.
 	
 	Cai et al.\cite{cai2026exploringsafetyalignmentevaluation} developed PsyCrisis for reference-free safety evaluation in Chinese. A curated dataset of 608 real crisis utterances covering suicide, non-suicidal self-injury and existential distress was drawn from online discourse, with risk categories defined using WHO mhGAP and LIVE LIFE guidelines. Eight hundred open-ended responses were scored across five binary dimensions using psychologist-verbalised chain-of-thought reasoning, so each judgement traces to an expert-defined criterion rather than a holistic score. A reference-free design avoids the impracticality of curating gold answers for every possible crisis utterance. Six clinical professionals annotated categories, scores and explanation preferences, with agreement reported as Cohen's $\kappa$ = 0.697, F1 = 0.802 and Fleiss' $\kappa$. Annotator compensation is disclosed, which no other study in the corpus reports. Scope is single-turn and Chinese-only and leniency bias in the evaluator cannot be ruled out.
 	
@@ -776,9 +715,9 @@
 	
 	Hallucination has the lowest coverage but the healthiest measurement ratio. Of 37 studies, 11 measure or score it, 5 mitigate architecturally without measuring and 21 discuss it only. The mitigation-without-measurement group is the one flagged in Section 3, where retrieval augmentation is invoked as a hallucination control and never tested.
 	
-	The two hallucination constructs do not compose. Linardon et al. measure factual fabrication and Kim et al.\cite{kim-etal-2026-kind} measure affective simulation. A system could score well on the first while failing on the second and a heavily guardrailed system that never fabricates a citation may be the one that over-performs emotional presence. No framework currently integrates factuality, faithfulness and affective hallucination into a single assurance account.
+	The two hallucination constructs do not compose. Linardon et al. measure factual fabrication and Kim et al.\cite{kim-etal-2026-kind} measure affective simulation. A system could score well on the first while failing on the second and a heavily guardrailed system that never fabricates a citation may be the one that over-performs emotional presence. No study in this corpus integrates factuality, faithfulness and affective hallucination into a single assurance account.
 	
-	Crisis findings run counter to the triage findings of Section 5 and the divergence is likely methodological. The triage studies found conservative over-escalation whereas the crisis studies here find under-escalation, non-durable shutdowns and inconsistent guardrails at intermediate risk. The explanation lies in stimulus design: triage studies present a complete case and ask for a rating, whereas crisis studies present an escalating user in distress and observe behaviour. Single-turn rating tasks do not surface the failures that multi-turn escalation produces, which supports the use of multi-turn designs.
+	Crisis findings run counter to the triage findings of Section 5. One methodological difference distinguishes the two sets of studies. The triage studies found conservative over-escalation whereas the crisis studies here find under-escalation, non-durable shutdowns and inconsistent guardrails at intermediate risk. The explanation lies in stimulus design: triage studies present a complete case and ask for a rating, whereas crisis studies present an escalating user in distress and observe behaviour. Single-turn rating tasks do not surface the failures that multi-turn escalation produces, which supports the use of multi-turn designs.
 	
 	Human validation of automated judges is inconsistent even within this section. Kim et al.\cite{kim-etal-2026-kind} validate their judge against two licensed psychiatrists, Cai et al. against six clinical professionals and Au Yeung et al. report no human validation of judge scoring. Since all three use LLM judges to produce safety verdicts, any leniency bias in the judge, which Cai et al. identify as a limitation, propagates into the safety conclusion.
 	
@@ -818,7 +757,7 @@
 	
 	\section{Cross-Cutting Methodological Quality}
 	
-	This section examines the corpus by quality rather than contribution type, reporting across all 66 studies using the extraction fields directly. The purpose is to convert the preceding account into an evidence-based statement of what this literature can and cannot support. One caveat applies throughout: the appraisal draws on what studies report and is not a validated risk-of-bias instrument, so under-reporting and under-performance cannot be distinguished. Where reproducibility depends on reporting, an unreported method is for practical purposes an unavailable one.
+	This section examines the corpus by quality rather than contribution type, reporting across all 66 studies using the extraction fields directly. The purpose is to convert the preceding account into an evidence-based statement of what the included studies can and cannot support. One caveat applies throughout: the appraisal draws on what studies report and is not a validated risk-of-bias instrument, so under-reporting and under-performance cannot be distinguished. Where reproducibility depends on reporting, an unreported method is for practical purposes an unavailable one.
 	
 	\subsection{Statistical rigour and inference}
 	
@@ -964,7 +903,7 @@
 		\end{tabularx}
 	\end{center}
 	
-	The relevant figure is the intersection: 45 of the 59 studies using human evaluation report no agreement statistic. Human judgement serves as ground truth in most of this literature, with 33 of 59 studies using licensed clinical professionals, yet in three quarters of cases rater consistency cannot be assessed. Where a study reports that clinicians rated model responses favourably without agreement data, an unquantified assumption of rater consistency is doing the work. Reported values range from Fleiss' $\kappa$ = 0.96 down to 0.613 inter-annotator and Cohen's $\kappa$ = 0.566 for LLM-human agreement in harm-log coding\cite{moore2026characterizingdelusionalspiralshumanllm}, with $\kappa$ = 0.697 elsewhere. Coefficients in the 0.55 to 0.70 band are moderate and the studies reporting them state as much; the 45 studies reporting no figure remain unassessed.
+	The relevant figure is the intersection: 45 of the 59 studies using human evaluation report no agreement statistic. Human judgement serves as ground truth in 59 of the 66 studies, with 33 of those 59 using licensed clinical professionals, yet in three quarters of cases rater consistency cannot be assessed. Where a study reports that clinicians rated model responses favourably without agreement data, an unquantified assumption of rater consistency is doing the work. Reported values range from Fleiss' $\kappa$ = 0.96 down to 0.613 inter-annotator and Cohen's $\kappa$ = 0.566 for LLM-human agreement in harm-log coding\cite{moore2026characterizingdelusionalspiralshumanllm}, with $\kappa$ = 0.697 elsewhere. Coefficients in the 0.55 to 0.70 band are moderate and the studies reporting them state as much; the 45 studies reporting no figure remain unassessed.
 	
 	Two procedures reported in Sections 4 and 5 remain uncommon elsewhere in the corpus. Separating consistency ICC(C,1) from absolute agreement ICC(A,1) distinguishes a rater who ranks correctly from one who is correctly calibrated and applies to human panels as much as to LLM judges, though no human-rater study in this corpus reports it. The psychometric apparatus applied to an LLM-derived measure, covering $\alpha$, $\omega$, AVE, CFA fit indices and bootstrap optimism correction, indicates that classical test theory is applicable and appears once.
 	
@@ -1000,25 +939,25 @@
 	
 	\subsection{Systematic design gaps}
 	
-	Four gaps recur across the corpus and are not attributable to individual studies.
+	Four gaps recur across the corpus rather than being confined to individual studies.
 	
-	Single-turn evaluation dominates a multi-turn problem. Of 56 empirical studies, 16 employ multi-turn, longitudinal or repeated-measures designs, nine explicitly state single-turn scope and most of the remainder are single-turn by construction. Triage studies presenting a complete case report conservative over-escalation, while crisis studies presenting an escalating user report under-escalation, non-durable shutdowns and inconsistent guardrails. The restartability result, that 22 of 25 agents resume after a safety trigger once distress subsides, would not be detected in a single-pass design. Therapeutic relationships are longitudinal; the evaluation apparatus largely is not.
+	Single-turn evaluation dominates a multi-turn problem. Of 56 empirical studies, 16 employ multi-turn, longitudinal or repeated-measures designs, nine explicitly state single-turn scope and most of the remainder are single-turn by construction. Triage studies presenting a complete case report conservative over-escalation, while crisis studies presenting an escalating user report under-escalation, non-durable shutdowns and inconsistent guardrails. The restartability result, that 22 of 25 agents resume after a safety trigger once distress subsides, was obtained by continuing the simulation past shutdown. Therapeutic relationships are longitudinal; the evaluation apparatus largely is not.
 	
 	The prospective evidence base is one underpowered trial, two weeks, $n$ = 160, explicitly not powered for between-group inference, conducted by the product developer and excluding participants with recent suicidality. No study in this corpus reports clinical outcomes from an adequately powered trial, so every efficacy claim rests on proxy measures, whether benchmark accuracy, expert appropriateness ratings or satisfaction scores, none of which has been validated against patient outcomes.
 	
 	Linguistic and cultural coverage is narrow and unevenly examined. Chinese-language work is well represented with 10 studies, with smaller contributions in Italian, German, Spanish and Indonesian. Four studies explicitly note English-only scope as a limitation, the dominant corpora are English-language Western platforms and only five studies apply any recognisable bias method. The geographically diverse interview sample reporting cultural mismatch as a leading user complaint identifies a problem the rest of the corpus is not equipped to investigate.
 	
-	Stochasticity is unaddressed in four studies out of five. Twelve of 66 address repetition, repeated trials or test-retest reliability and the remainder report single-pass results from systems that are non-deterministic by default. Repetition yields more than error bars, since response consistency across trials predicts accuracy while self-reported confidence does not, providing a reliability proxy, yet the practice remains rare.
+	Stochasticity is unaddressed in four studies out of five. Twelve of 66 address repetition, repeated trials or test-retest reliability and the remainder report single-pass results from systems that are non-deterministic by default. Repetition yields more than error bars, since response consistency across trials predicts accuracy while self-reported confidence does not, providing a reliability proxy, yet 12 of 66 studies apply it.
 	
 	\subsection{The gap addressed by this review}
 	
-	Six statements follow from the appraisal above and together define what this literature cannot currently support. No pooled effect estimate exists for any LLM mental health application, since all seven prior reviews synthesise descriptively and the heterogeneity of metrics, tasks and ground-truth definitions explains why. Human evaluation is the field's primary ground truth and is largely unvalidated, with 45 of 59 studies reporting no agreement statistic. Safety coverage is nominally near-universal and substantively narrow, with 61 studies addressing safety and 11 testing whether model output is safe. Bias is acknowledged far more often than measured, with 58 studies addressing bias and five applying a recognisable method. Reproducibility is the weakest dimension, with one study in five reporting decoding parameters, hyperparameters or hardware and one in thirty preregistering. Clinical efficacy is unestablished, with one underpowered exploratory trial constituting the entire prospective evidence base.
+	Six statements follow from the appraisal above and together define what the included studies cannot currently support. None of the seven prior reviews reports a pooled effect estimate, since all synthesise descriptively and the heterogeneity of metrics, tasks and ground-truth definitions explains why. Human evaluation is the primary ground truth in these studies and is largely unvalidated, with 45 of 59 reporting no agreement statistic. Safety coverage is nominally near-universal and substantively narrow, with 61 studies addressing safety and 11 testing whether model output is safe. Bias is acknowledged far more often than measured, with 58 studies addressing bias and five applying a recognisable method. Reproducibility is the weakest dimension, with one study in five reporting decoding parameters, hyperparameters or hardware and one in thirty preregistering. Clinical efficacy is unestablished, with one underpowered exploratory trial constituting the entire prospective evidence base.
 	
 	The present review addresses the first four of these by extracting methodology rather than results uniformly across 66 studies with four dedicated risk fields, permitting the corpus-wide claims made in Sections 6 and 7 that no prior synthesis could support. It cannot address the last two, which require primary research rather than review.
 	
 	What a stronger design would require follows directly: multi-turn or longitudinal interaction rather than single-turn stimulus; repeated trials with reported decoding parameters and confidence intervals; human evaluation with reported agreement, ideally separating consistency from absolute calibration; safety evaluation that tests output behaviour rather than documenting data governance; bias evaluation using counterfactual manipulation with clinically interpretable outcome instruments; and powered trials measuring patient outcomes rather than proxies. Each of these components already appears somewhere in this corpus, in longitudinal simulation, repetition protocols, ICC decomposition, escalation anchoring, counterfactual psychometrics and trial architecture, though not in combination.
 	
-	The trajectory in Table 7.3 suggests such a combination may be closer than the aggregate figures imply. Reporting standards rise year on year and the 2026 cohort reports inferential statistics at 67\% and reliability coefficients at 44\%, roughly triple and seven times the 2024 rates respectively. The methodological weaknesses catalogued here may therefore reflect the early stage of the literature rather than fixed properties of it.
+	The trajectory in Table 7.3 suggests such a combination may be closer than the aggregate figures imply. Reporting standards rise year on year and the 2026 cohort reports inferential statistics at 67\% and reliability coefficients at 44\%, roughly triple and seven times the 2024 rates respectively. The methodological weaknesses catalogued here may therefore be characteristic of the earlier studies in this corpus rather than of the included studies as a whole.
 	
 	
 	\section{Discussion}
@@ -1026,32 +965,30 @@
 	\subsection{Principal findings}
 	
 	Three observations run across the corpus. The first concerns the distance between nominal and
-	substantive risk evaluation. Safety appears in 61 of 66 studies and bias in 58, figures that would
-	support a favourable account of the field's attention to risk. Decomposition gives a different
+	substantive risk evaluation. Safety appears in 61 of 66 studies and bias in 58. Decomposition gives a different
 	picture: 26 of the safety entries describe research-ethics or data-governance measures and 24
 	discuss safety narratively, leaving 11 that test whether model output is safe. Of the bias entries,
-	5 apply a recognisable method. Any synthesis reporting the headline percentages without this
-	decomposition would mislead.
+	5 apply a recognisable method. The headline percentages and the decomposed counts therefore support
+	different conclusions.
 	
-	The second concerns human judgement. It serves as ground truth in most of this literature, with 33
-	of 59 studies using licensed clinical professionals, yet 45 of those 59 report no agreement
+	The second concerns human judgement. It serves as ground truth in 59 of the 66 studies, 33
+	of which use licensed clinical professionals, yet 45 of those 59 report no agreement
 	statistic. Where a study reports that clinicians rated model responses favourably without agreement
 	data, an unquantified assumption of rater consistency is doing the work.
 	
 	The third concerns the relationship between engineering scope and evaluative depth, which is
-	inverse. Studies presenting full pipelines, agentic orchestration or deployed interfaces report the
-	least evaluation, while narrower studies report the most. Section 9 shows this is a corpus-level
-	pattern rather than an artefact of selective reading: adaptation studies report inferential
-	statistics in 21\% of cases and reliability coefficients in none, against 83\% and 50\% for
-	benchmark studies.
+	inverse in this corpus. Studies presenting full pipelines, agentic orchestration or deployed
+	interfaces report the least evaluation, while narrower studies report the most. Section 9 reports
+	this as a corpus-level pattern rather than an artefact of selective reading: adaptation studies
+	report inferential statistics in 21\% of cases and reliability coefficients in none, against 83\%
+	and 50\% for benchmark studies.
 	
 	\subsection{Comparison with prior reviews}
 	
-	Existing syntheses reach broadly compatible conclusions about capability but cannot address
-	methodological adequacy, for two reasons established in Section 3. Their search windows close
-	before 68\% of the present corpus was published, so they characterise a methodologically weaker
-	literature than the one now current; and none extracts risk methodology systematically, so the
-	coverage-versus-measurement distinction developed in Section 8 is not available to them.
+	The seven prior reviews do not address methodological adequacy, for two reasons reported in
+	Section 3. Their search windows close before 68\% of the present corpus was published; and none
+	extracts risk methodology systematically, so the coverage-versus-measurement distinction developed
+	in Section 8 is not available to them.
 	
 	Where this review agrees with prior work is on the direction of concern. Guo et
 	al.\cite{GUO2024} conclude that current risks of clinical use may outweigh the benefits, and
@@ -1066,75 +1003,61 @@
 	decomposition, escalation anchoring, counterfactual psychometrics and trial architecture. What has
 	not yet appeared is their combination in a single study.
 	
-	Two design choices would yield disproportionate returns. Reporting decoding parameters costs
-	nothing and would remove a substantial source of unquantified variance, since identical prompts
-	yield different answers across runs and repetition is inconsistently applied. Reporting an agreement
-	statistic wherever human raters are used would allow the field's primary ground truth to be
-	assessed rather than assumed.
+	Two reporting practices would address the gaps documented in Section 9.3. Reporting decoding
+	parameters would reduce a source of unquantified variance, since identical prompts yield different
+	answers across runs and repetition is inconsistently applied. Reporting an agreement statistic
+	wherever human raters are used would allow the ground truth on which 59 of these studies
+	depend to be assessed rather than assumed.
 	
 	\subsection{Implications for practice and governance}
 	
 	The evidence assembled here does not support autonomous clinical deployment. One underpowered
-	exploratory trial constitutes the entire prospective evidence base, so every efficacy claim in this
-	literature depends on proxy measures, whether benchmark accuracy, expert appropriateness ratings or
+	exploratory trial constitutes the prospective evidence base within this corpus, so every efficacy
+	claim in the reviewed studies depends on proxy measures, whether benchmark accuracy, expert appropriateness ratings or
 	satisfaction scores, none of which has been validated against patient outcomes.
 	
 	Two findings bear on procurement and oversight. Domain fine-tuning was not consistently associated
-	with improved accuracy in the reviewed studies, so a model marketed as clinically specialised should
-	not be assumed to outperform a general-purpose counterpart without matched-pair evidence. And
+	with improved accuracy in the reviewed studies, which indicates that a clinically specialised model
+	should not be assumed to outperform a general-purpose counterpart without matched-pair evidence. And
 	safety behaviour observed in single-turn testing may not persist across a conversation, as the
 	restartability result in Section 8 indicates.
 	
 	\subsection{A research agenda}
 	
 	Four priorities follow from the gaps identified in Section 9.4. Longitudinal and multi-turn
-	evaluation is required because therapeutic relationships are longitudinal and the evaluation
-	apparatus largely is not. Adequately powered trials measuring patient outcomes are needed to move
+	evaluation would address the predominance of single-turn designs reported in Section 9.4. Adequately powered trials measuring patient outcomes are needed to move
 	efficacy claims off proxy measures. Bias evaluation using counterfactual manipulation with
 	clinically interpretable outcome instruments would address a dimension currently acknowledged far
-	more often than measured. Finally, evaluation resources outside English and outside Western
-	platforms remain scarce, and the cultural mismatch reported by users cannot be investigated with
-	the corpora currently available.
+	more often than measured. Finally, the corpora described in Section 4 are drawn largely from English-language Western
+	platforms, which limits investigation of the cultural mismatch reported by participants in Song et
+	al.\cite{song2025typingcureexperienceslarge}.
 	
 	\subsection{Limitations of this review}
 	
-	Five limitations qualify the findings. No quantitative pooling was performed, so no effect estimate
+	Four limitations qualify the findings. No quantitative pooling was performed, so no effect estimate
 	is offered. No validated risk-of-bias instrument was applied, and because the appraisal draws on
 	what studies report, under-reporting and under-performance cannot be distinguished; in a literature
 	where reproducibility depends on reporting, an unreported method is for practical purposes an
 	unavailable one, but the distinction still limits interpretation. Grouping each study by primary
 	methodological contribution means that studies spanning several categories are appraised chiefly
 	under one. One included record was extracted from a source document carrying no text layer and its
-	fields derive from optical character recognition. \textbf{[TODO: add any limitation arising from
-		single-reviewer screening or extraction once Section 2.4 and 2.5 are completed.]}
+	fields derive from optical character recognition. 
 	
 	\section{Conclusion}
 	
-	Across 66 studies, the methods used to establish that large language models are useful in mental
-	health are less developed than the methods used to build them. Inferential statistics support fewer
+	Across the 66 studies reviewed, the methods used to establish that large language models are useful
+	in mental health are less developed than the methods used to build them. Inferential statistics support fewer
 	than half the corpus, reliability coefficients accompany roughly a fifth, and the reporting detail
 	required for replication is present in about one study in five. Risk evaluation is widely claimed
 	and narrowly performed.
 	
-	These weaknesses are concentrated in the field's earliest work. Inferential reporting rises from
+	Within this corpus these weaknesses are concentrated in the earliest studies. Inferential reporting rises from
 	zero in 2023 to 67\% in 2026 and reliability reporting from zero to 44\% across the same period,
-	which suggests that what this review documents is the early stage of a literature rather than a
-	fixed characteristic of it. The components of a stronger design already exist within the corpus.
+	which is consistent with the more recent studies in this corpus reporting more fully than the
+	earlier ones. The components of a stronger design already exist within the corpus.
 	Assembling them into single studies, and reporting them fully, is the work that remains.
 	
-	\section*{Declarations}
 	
-	\noindent\textbf{Funding.} \textbf{[TODO]}
-	
-	\noindent\textbf{Conflicts of interest.} \textbf{[TODO]}
-	
-	\noindent\textbf{Author contributions.} \textbf{[TODO --- CRediT taxonomy recommended.]}
-	
-	\noindent\textbf{Data availability.} The complete 24-field extraction matrix for all 66 included
-	studies is provided as Supplementary Material. \textbf{[TODO: add repository DOI.]}
-	
-	\noindent\textbf{Supplementary material.} S1: full search strategy per database. S2: PRISMA 2020
-	checklist. S3: study characteristics table. S4: complete extraction matrix.
 	
 	
 	\bibliographystyle{IEEEtran}
