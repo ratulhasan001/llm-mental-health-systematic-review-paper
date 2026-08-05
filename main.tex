@@ -13,6 +13,8 @@
 \usepackage[hidelinks]{hyperref}
 \emergencystretch=3em 
 \usepackage[numbers]{natbib}
+\usepackage{booktabs}
+\usepackage{enumitem}
 
 \title{project-36}
 \author{ELITE Research Lab LLC}
@@ -22,7 +24,193 @@
 	
 	\maketitle
 	
-	\section{Review Methodology and the Secondary Evidence Base}
+	\begin{abstract}
+		\noindent\textbf{Background.} Large language models (LLMs) are being applied across mental health
+		research at pace, but the methods used to build, adapt and evaluate them have not been synthesised
+		systematically. Seven reviews published between 2024 and 2026 organise the field around application
+		areas rather than methodology, and every one closed its search before the majority of the current
+		literature appeared.
+		
+		\noindent\textbf{Objective.} To synthesise, compare and critically appraise the research
+		methodologies used in LLM-based mental health studies, and to characterise the field's evidential
+		standards rather than its reported performance.
+		
+		\noindent\textbf{Methods.} Methodology-only extraction was performed across 66 unique studies
+		(68 retrieved documents, two preprint/published pairs merged) using a uniform 24-field instrument.
+		Four fields were dedicated to risk reporting: hallucination, bias, safety and human evaluation.
+		Absence was recorded as data, with ``Not Reported'' distinguished from ``not applicable''. Results
+		were deliberately excluded from extraction. Findings were synthesised narratively; no quantitative
+		pooling was attempted.
+		
+		\noindent\textbf{Results.} Studies clustered into corpus construction, model adaptation, benchmark
+		construction, human and clinical evaluation, and risk assurance. Clinical data underpinned 4 of 12
+		corpus-building studies. Of 66 studies, 28 (42\%) reported inferential statistics and 14 (21\%) any
+		reliability coefficient; 45 of the 59 studies using human evaluation reported no agreement statistic.
+		Risk coverage was high but shallow: 61 studies addressed safety yet 11 tested output behaviour, and
+		58 addressed bias yet 5 applied a recognisable bias method. Decoding parameters were absent from 53
+		of 66 studies and 2 studies were preregistered. One underpowered exploratory trial constituted the
+		entire prospective evidence base. Reporting standards rose year on year, with inferential statistics
+		at 0\% in 2023 and 67\% in 2026.
+		
+		\noindent\textbf{Conclusions.} The field's methodological weaknesses are concentrated in its earliest
+		work and are narrowing. Present constraints on interpretation are the scarcity of reported agreement
+		statistics, the gap between nominal and substantive risk evaluation, and the absence of powered
+		clinical trials.
+	\end{abstract}
+	
+	\noindent\textbf{Keywords:} large language models; mental health; systematic review; research
+	methodology; evaluation; hallucination; algorithmic bias; safety assessment; PRISMA
+	
+	\section{Introduction}
+	
+	Mental health services worldwide operate under sustained workforce shortage, and large language
+	models (LLMs) have been proposed as a partial response, in screening, triage, psychoeducation,
+	counselling support and clinical documentation. Research output has grown quickly: of the 66 studies
+	synthesised here, 45 (68\%) were published in 2025 or 2026.
+	
+	Growth of this kind raises a question distinct from whether these systems perform well, namely
+	whether the evidence that they perform well is sound. Answering it requires attention to how studies
+	are designed rather than to what they report, and that is the subject of this review.
+	
+	\subsection{Prior reviews and their coverage}
+	
+	Seven systematic or scoping reviews of LLMs in mental health appeared between 2024 and
+	2026\cite{Jin2025LLMMentalHealth,Hua2025LLMMentalHealthScoping,fpsyg.2025.1715306,Hua2025,WANG2025,Kolding2025,GUO2024}.
+	Three properties limit what they can currently support. None performs quantitative synthesis, so no
+	pooled effect estimate exists for any LLM mental health application. Formal quality appraisal is
+	uncommon, applied in two of the seven. Most importantly, every search window closes before the
+	majority of the present corpus was published: the latest end-date is August 2024 and the earliest
+	December 2023, against 68\% of included studies appearing in 2025 or 2026. Section 3 examines these
+	reviews in detail.
+	
+	A further difference concerns organising principle. Five of the seven are structured around
+	application areas, describing what LLMs are used for. None is organised around methodology as
+	such: how corpora are constructed, how models are adapted, how evaluation is designed and how risk
+	is assessed. That is the organising principle adopted here.
+	
+	\subsection{Objectives and research questions}
+	
+	This review synthesises the methodologies used across LLM-based mental health research and appraises
+	their evidential adequacy. Four questions structure the synthesis:
+	
+	\begin{enumerate}[itemsep=1pt,topsep=3pt]
+		\item What data foundations support this literature, and how is ground truth established?
+		(Section 4)
+		\item Which model adaptation strategies are used, and how is their output evaluated?
+		(Sections 5 and 6)
+		\item How is human and clinical judgement incorporated into evaluation? (Section 7)
+		\item How are hallucination, bias and safety assessed, and how far does nominal coverage
+		correspond to measurement? (Section 8)
+	\end{enumerate}
+	
+	Section 9 draws these threads into a corpus-level appraisal of statistical rigour, reliability
+	reporting and reproducibility. Section 10 discusses implications and Section 11 concludes.
+	
+	\section{Methods}
+	
+	\subsection{Protocol and registration}
+	
+	% TODO: state registration (PROSPERO / OSF identifier) or declare explicitly that the review
+	% was not registered. Journals increasingly require one or the other.
+	This review was reported with reference to the PRISMA 2020 statement. \textbf{[TODO: registration
+		statement --- insert PROSPERO or OSF identifier, or an explicit declaration that the review was not
+		prospectively registered.]}
+	
+	\subsection{Information sources and search strategy}
+	
+	\textbf{[TODO: databases searched, platform/interface, and the date each search was executed.]}
+	
+	\textbf{[TODO: full search strings per database. Reproduce verbatim, including Boolean operators,
+		truncation and field tags. Place the complete strategy in Supplementary Material S1.]}
+	
+	\textbf{[TODO: any supplementary search methods --- backward or forward citation chaining, preprint
+		servers, hand-searching.]}
+	
+	\subsection{Eligibility criteria}
+	
+	\textbf{[TODO: inclusion criteria --- study designs admitted, population or task scope, model scope
+		(e.g. a parameter or architecture threshold), publication types, language, date range.]}
+	
+	\textbf{[TODO: exclusion criteria, with the reason each is applied.]}
+	
+	\subsection{Study selection}
+	
+	\textbf{[TODO: number of reviewers screening titles/abstracts and full texts; whether screening was
+		independent and in duplicate; how disagreements were resolved; any screening software used;
+		inter-screener agreement if measured.]}
+	
+	Screening yielded 68 documents for extraction. Two studies were retrieved in both preprint and
+	published form; each pair was merged into a single record, giving 66 unique studies. The PRISMA
+	flow of records through identification, screening, eligibility and inclusion is shown in
+	Figure~\ref{fig:prisma}.
+	
+	\begin{figure}[htbp]
+		\centering
+		\fbox{\begin{minipage}[c][7cm][c]{0.9\textwidth}
+				\centering
+				\textbf{[PRISMA 2020 flow diagram --- to be inserted]}\\[6pt]
+				\footnotesize
+				Records identified ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				duplicates removed ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				records screened ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				records excluded ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				full texts assessed ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				full texts excluded with reasons ($n =$ \underline{\hspace{1.5cm}}) $\rightarrow$
+				documents included ($n = 68$) $\rightarrow$
+				unique studies after merging preprint/published pairs ($n = 66$).
+		\end{minipage}}
+		\caption{PRISMA 2020 flow of records through the review.}
+		\label{fig:prisma}
+	\end{figure}
+	
+	\subsection{Data extraction}
+	
+	Extraction was methodology-only. Where prior reviews chart what models achieved, this review charts
+	how the achievement was established, and reported results were deliberately excluded from the
+	extraction instrument.
+	
+	Every study was extracted across the same twenty-four fields: paper identifier, title, year,
+	research objective, mental health task, methodology category, dataset(s), data type, LLM(s) used,
+	baseline models, prompting strategy, fine-tuning or retrieval or agentic framework, experimental
+	design, evaluation protocol, evaluation metrics, human evaluation, statistical analysis,
+	hallucination evaluation method, bias evaluation method, safety evaluation method, implementation
+	details, strengths, limitations and novel methodological contribution.
+	
+	Four of these fields (hallucination, bias, safety and human evaluation) are not extracted
+	systematically by any prior review, and they support the corpus-wide statements made in Sections 8
+	and 9. Absence was recorded as data: ``Not Reported'' was distinguished throughout from ``not
+	applicable'', so that gaps in the primary literature are recoverable as findings rather than
+	appearing as blanks.
+	
+	\textbf{[TODO: number of extractors; whether extraction was performed in duplicate or verified by a
+		second reviewer; how extraction disagreements were resolved.]}
+	
+	\subsection{Quality appraisal}
+	
+	No validated risk-of-bias instrument was applied to included studies. Methodological quality is
+	instead characterised through the extraction fields themselves, principally statistical analysis,
+	human evaluation, reliability reporting and reproducibility markers, and appraised cross-sectionally
+	in Section 9. This is a weaker guarantee than an instrument such as MMAT or RoB~2 would provide and
+	represents a deliberate trade-off against extraction depth across twenty-four fields. Because the
+	appraisal draws on what studies report, under-reporting and under-performance cannot be
+	distinguished.
+	
+	\subsection{Synthesis method}
+	
+	Findings were synthesised narratively. No quantitative pooling was attempted, for the same
+	heterogeneity reason that constrains all seven prior reviews: the primary literature reports F1,
+	balanced accuracy, AUC, BLEU, ROUGE, $\kappa$, ICC and bespoke Likert instruments without shared
+	task definitions.
+	
+	Studies were grouped by primary methodological contribution, each appearing in exactly one group,
+	and the groups are presented in the order of the research lifecycle: secondary evidence base
+	(Section 3), data foundations (Section 4), model adaptation (Section 5), benchmark construction
+	(Section 6), human and clinical evaluation (Section 7) and risk assurance (Section 8). Counts
+	reported across the whole corpus were computed directly from the extraction fields.
+	
+	
+	
+	\section{The Secondary Evidence Base}
 	
 	Ten of the sixty-six studies in this corpus (15.2\%) are reviews, surveys, or conceptual syntheses. They constitute evidence about the field's methodology rather than instances of it and they supply the vocabulary in which the remaining fifty-six studies are described. Seven systematic or scoping reviews of large language models (LLMs) in mental health appeared between 2024 and 2026, so a further synthesis must show what those seven leave unaddressed. The ten papers fall into three groups: scoping reviews that map breadth, systematic reviews conducted under PRISMA that also attempt appraisal and conceptual papers that supply taxonomies and governance frameworks without primary data.
 	
@@ -117,12 +305,6 @@
 	\end{center}
 	
 	A fifth observation concerns scope. Five of seven reviews organise around application areas. Only Yang et al., through its boundary framing and Hua et al.\cite{Hua2025}, through its evaluation pyramid, organise around evaluative adequacy. None organises around methodology as such: how corpora are constructed, how models are adapted, how evaluation is designed and how risk is assessed. That is the organising principle adopted here.
-	
-	\subsection{Positioning of the present review}
-	
-	Five commitments follow from the appraisal above. Extraction is methodology-only, so that where prior reviews chart what models achieved, this review charts how the achievement was established. Every study is extracted across the same twenty-four fields, including four risk fields (hallucination, bias, safety, human evaluation) that no prior review extracts systematically, which permits the corpus-wide statements made in Sections 6 and 7. The search window extends through 2026, capturing the 68\% of the corpus outside all prior coverage. Absence is recorded as data, with "Not Reported" distinguished from "not applicable", so that gaps in the primary literature become findings. Two studies appeared in both preprint and published form and were merged into single records, giving 66 unique studies from 68 retrieved documents.
-	
-	Two limitations should be stated at the outset. Like all seven reviews examined here, this review performs no quantitative pooling, for the same heterogeneity reason. No formal quality appraisal instrument is applied to included studies; methodological quality is instead characterised through the extraction fields themselves and appraised cross-sectionally in Section 7. This is a weaker guarantee than a validated instrument would provide and represents a deliberate trade-off against extraction depth.
 	
 	\section{Data Foundations and Corpus Construction}
 	
@@ -837,6 +1019,123 @@
 	What a stronger design would require follows directly: multi-turn or longitudinal interaction rather than single-turn stimulus; repeated trials with reported decoding parameters and confidence intervals; human evaluation with reported agreement, ideally separating consistency from absolute calibration; safety evaluation that tests output behaviour rather than documenting data governance; bias evaluation using counterfactual manipulation with clinically interpretable outcome instruments; and powered trials measuring patient outcomes rather than proxies. Each of these components already appears somewhere in this corpus, in longitudinal simulation, repetition protocols, ICC decomposition, escalation anchoring, counterfactual psychometrics and trial architecture, though not in combination.
 	
 	The trajectory in Table 7.3 suggests such a combination may be closer than the aggregate figures imply. Reporting standards rise year on year and the 2026 cohort reports inferential statistics at 67\% and reliability coefficients at 44\%, roughly triple and seven times the 2024 rates respectively. The methodological weaknesses catalogued here may therefore reflect the early stage of the literature rather than fixed properties of it.
+	
+	
+	\section{Discussion}
+	
+	\subsection{Principal findings}
+	
+	Three observations run across the corpus. The first concerns the distance between nominal and
+	substantive risk evaluation. Safety appears in 61 of 66 studies and bias in 58, figures that would
+	support a favourable account of the field's attention to risk. Decomposition gives a different
+	picture: 26 of the safety entries describe research-ethics or data-governance measures and 24
+	discuss safety narratively, leaving 11 that test whether model output is safe. Of the bias entries,
+	5 apply a recognisable method. Any synthesis reporting the headline percentages without this
+	decomposition would mislead.
+	
+	The second concerns human judgement. It serves as ground truth in most of this literature, with 33
+	of 59 studies using licensed clinical professionals, yet 45 of those 59 report no agreement
+	statistic. Where a study reports that clinicians rated model responses favourably without agreement
+	data, an unquantified assumption of rater consistency is doing the work.
+	
+	The third concerns the relationship between engineering scope and evaluative depth, which is
+	inverse. Studies presenting full pipelines, agentic orchestration or deployed interfaces report the
+	least evaluation, while narrower studies report the most. Section 9 shows this is a corpus-level
+	pattern rather than an artefact of selective reading: adaptation studies report inferential
+	statistics in 21\% of cases and reliability coefficients in none, against 83\% and 50\% for
+	benchmark studies.
+	
+	\subsection{Comparison with prior reviews}
+	
+	Existing syntheses reach broadly compatible conclusions about capability but cannot address
+	methodological adequacy, for two reasons established in Section 3. Their search windows close
+	before 68\% of the present corpus was published, so they characterise a methodologically weaker
+	literature than the one now current; and none extracts risk methodology systematically, so the
+	coverage-versus-measurement distinction developed in Section 8 is not available to them.
+	
+	Where this review agrees with prior work is on the direction of concern. Guo et
+	al.\cite{GUO2024} conclude that current risks of clinical use may outweigh the benefits, and
+	Kolding et al.\cite{Kolding2025} report that models and prompts are frequently underspecified to
+	the point where replication is impossible. The reproducibility figures in Section 9 quantify the
+	latter observation: decoding parameters are absent from 53 of 66 studies.
+	
+	\subsection{Implications for study design}
+	
+	Section 9.5 sets out what a stronger design would require. The components are not speculative; each
+	already appears somewhere in this corpus, in longitudinal simulation, repetition protocols, ICC
+	decomposition, escalation anchoring, counterfactual psychometrics and trial architecture. What has
+	not yet appeared is their combination in a single study.
+	
+	Two design choices would yield disproportionate returns. Reporting decoding parameters costs
+	nothing and would remove a substantial source of unquantified variance, since identical prompts
+	yield different answers across runs and repetition is inconsistently applied. Reporting an agreement
+	statistic wherever human raters are used would allow the field's primary ground truth to be
+	assessed rather than assumed.
+	
+	\subsection{Implications for practice and governance}
+	
+	The evidence assembled here does not support autonomous clinical deployment. One underpowered
+	exploratory trial constitutes the entire prospective evidence base, so every efficacy claim in this
+	literature depends on proxy measures, whether benchmark accuracy, expert appropriateness ratings or
+	satisfaction scores, none of which has been validated against patient outcomes.
+	
+	Two findings bear on procurement and oversight. Domain fine-tuning was not consistently associated
+	with improved accuracy in the reviewed studies, so a model marketed as clinically specialised should
+	not be assumed to outperform a general-purpose counterpart without matched-pair evidence. And
+	safety behaviour observed in single-turn testing may not persist across a conversation, as the
+	restartability result in Section 8 indicates.
+	
+	\subsection{A research agenda}
+	
+	Four priorities follow from the gaps identified in Section 9.4. Longitudinal and multi-turn
+	evaluation is required because therapeutic relationships are longitudinal and the evaluation
+	apparatus largely is not. Adequately powered trials measuring patient outcomes are needed to move
+	efficacy claims off proxy measures. Bias evaluation using counterfactual manipulation with
+	clinically interpretable outcome instruments would address a dimension currently acknowledged far
+	more often than measured. Finally, evaluation resources outside English and outside Western
+	platforms remain scarce, and the cultural mismatch reported by users cannot be investigated with
+	the corpora currently available.
+	
+	\subsection{Limitations of this review}
+	
+	Five limitations qualify the findings. No quantitative pooling was performed, so no effect estimate
+	is offered. No validated risk-of-bias instrument was applied, and because the appraisal draws on
+	what studies report, under-reporting and under-performance cannot be distinguished; in a literature
+	where reproducibility depends on reporting, an unreported method is for practical purposes an
+	unavailable one, but the distinction still limits interpretation. Grouping each study by primary
+	methodological contribution means that studies spanning several categories are appraised chiefly
+	under one. One included record was extracted from a source document carrying no text layer and its
+	fields derive from optical character recognition. \textbf{[TODO: add any limitation arising from
+		single-reviewer screening or extraction once Section 2.4 and 2.5 are completed.]}
+	
+	\section{Conclusion}
+	
+	Across 66 studies, the methods used to establish that large language models are useful in mental
+	health are less developed than the methods used to build them. Inferential statistics support fewer
+	than half the corpus, reliability coefficients accompany roughly a fifth, and the reporting detail
+	required for replication is present in about one study in five. Risk evaluation is widely claimed
+	and narrowly performed.
+	
+	These weaknesses are concentrated in the field's earliest work. Inferential reporting rises from
+	zero in 2023 to 67\% in 2026 and reliability reporting from zero to 44\% across the same period,
+	which suggests that what this review documents is the early stage of a literature rather than a
+	fixed characteristic of it. The components of a stronger design already exist within the corpus.
+	Assembling them into single studies, and reporting them fully, is the work that remains.
+	
+	\section*{Declarations}
+	
+	\noindent\textbf{Funding.} \textbf{[TODO]}
+	
+	\noindent\textbf{Conflicts of interest.} \textbf{[TODO]}
+	
+	\noindent\textbf{Author contributions.} \textbf{[TODO --- CRediT taxonomy recommended.]}
+	
+	\noindent\textbf{Data availability.} The complete 24-field extraction matrix for all 66 included
+	studies is provided as Supplementary Material. \textbf{[TODO: add repository DOI.]}
+	
+	\noindent\textbf{Supplementary material.} S1: full search strategy per database. S2: PRISMA 2020
+	checklist. S3: study characteristics table. S4: complete extraction matrix.
+	
 	
 	\bibliographystyle{IEEEtran}
 	\bibliography{references}

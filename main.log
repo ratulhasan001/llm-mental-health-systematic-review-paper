@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  5 AUG 2026 12:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  5 AUG 2026 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,58 +333,79 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count298
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count299
+\@cmidlb=\count300
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count301
+\@lastruleclass=\count302
+\@thisrulewidth=\dimen184
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen185
+\enit@toks=\toks28
+\enit@inbox=\box56
+\enit@count@id=\count303
+\enitdp@description=\count304
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count299
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count305
+\l__pdf_internal_box=\box57
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/local/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count300
-\scratchdimen=\dimen172
-\scratchbox=\box57
-\nofMPsegments=\count301
-\nofMParguments=\count302
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count303
-\MPscratchDim=\dimen173
-\MPnumerator=\count304
-\makeMPintoPDFobject=\count305
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count306
+\scratchdimen=\dimen186
+\scratchbox=\box58
+\nofMPsegments=\count307
+\nofMParguments=\count308
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count309
+\MPscratchDim=\dimen187
+\MPnumerator=\count310
+\makeMPintoPDFobject=\count311
+\everyMPtoPDFconversion=\toks30
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -424,18 +445,18 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 23.
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -446,338 +467,248 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Underfull \hbox (badness 1546) in paragraph at lines 76--76
-[]|\T1/cmr/bx/n/6 Screened $\OMS/cmsy/m/n/6 !$
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 76--76
-[]|\T1/cmr/bx/n/6 Search win-
- []
-
-
-Underfull \hbox (badness 3989) in paragraph at lines 76--76
-[]|\T1/cmr/bx/n/6 Quality ap-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/bx/n/6 Agreement
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 6 (incl.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Human +
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Scoping
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\T1/cmr/m/n/6 (PRISMA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Scoping
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\T1/cmr/m/n/6 (PRISMA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Wang et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Systematic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Kolding et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Systematic
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-\T1/cmr/m/n/6 (PRISMA,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Yes (both
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Declined,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Systematic
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 76--76
-[]|\T1/cmr/m/n/6 Not re-ported
- []
-
-
 
 [2]
 
 [3]
 
 [4]
-Underfull \hbox (badness 1337) in paragraph at lines 174--174
-[]|\T1/cmr/bx/n/8 Agreement statis-tic re-
+Underfull \hbox (badness 1546) in paragraph at lines 264--264
+[]|\T1/cmr/bx/n/6 Screened $\OMS/cmsy/m/n/6 !$
  []
 
 
-Underfull \hbox (badness 1147) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 Fleiss' $\OML/cmm/m/it/8 ^^T$ \T1/cmr/m/n/8 + Krip-pen-dorff's
-
+Underfull \hbox (badness 1527) in paragraph at lines 264--264
+[]|\T1/cmr/bx/n/6 Search win-
  []
 
 
-Underfull \hbox (badness 3000) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 Ohse et al.[[]]; Sood et
+Underfull \hbox (badness 3989) in paragraph at lines 264--264
+[]|\T1/cmr/bx/n/6 Quality ap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 User-stated di-ag-no-sis
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/bx/n/6 Agreement
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 174--174
-\T1/cmr/m/n/8 matched by key-word pat-
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 6 (incl.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 Model-generated pseudo-
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Human +
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 Aggarwal et al.[[]]; Hu et
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Scoping
  []
 
 
-Underfull \hbox (badness 4713) in paragraph at lines 174--174
-[]|\T1/cmr/m/n/8 None (Ag-gar-wal); hu-man
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+\T1/cmr/m/n/6 (PRISMA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Scoping
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+\T1/cmr/m/n/6 (PRISMA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Wang et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Systematic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Kolding et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Systematic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+\T1/cmr/m/n/6 (PRISMA,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Yes (both
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Declined,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Systematic
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 264--264
+[]|\T1/cmr/m/n/6 Not re-ported
  []
 
 
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/bx/n/8 Ground truth
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Acknowledged,
- []
-
-
-Underfull \hbox (badness 1292) in paragraph at lines 236--236
-\T1/cmr/m/n/8 + 50-case ex-pert
- []
-
-
-Underfull \hbox (badness 2799) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 34 sub-jects, 102
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Qualitative con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Subject-grouped
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 SOS-HL-1K;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 1,249 + 3,407
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Platform self-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 2-stage stu-dent
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Random 75/5/20
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Synthetic (HOPE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|$\OMS/cmsy/m/n/8 ^^X$\T1/cmr/m/n/8 4M sen-tences;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-\T1/cmr/m/n/8 2,700 syn-
- []
-
-
-Underfull \hbox (badness 1142) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 PRIMATE + re-
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 Randomised sub-
- []
-
-
-Underfull \hbox (badness 3965) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 GPT-4o pro-posal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\T1/cmr/m/n/8 LLM pseudo-
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 236--236
-\T1/cmr/m/n/8 labels (4 sources
- []
-
-
 
 [6]
 
 [7]
+Underfull \hbox (badness 1337) in paragraph at lines 356--356
+[]|\T1/cmr/bx/n/8 Agreement statis-tic re-
+ []
+
+
+Underfull \hbox (badness 1147) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 Fleiss' $\OML/cmm/m/it/8 ^^T$ \T1/cmr/m/n/8 + Krip-pen-dorff's
+
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 Ohse et al.[[]]; Sood et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 User-stated di-ag-no-sis
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 356--356
+\T1/cmr/m/n/8 matched by key-word pat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 Model-generated pseudo-
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 Aggarwal et al.[[]]; Hu et
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 356--356
+[]|\T1/cmr/m/n/8 None (Ag-gar-wal); hu-man
+ []
+
+
 
 [8]
-Underfull \hbox (badness 1748) in paragraph at lines 289--289
-[]|\T1/cmr/bx/n/8 Human eval-u-a-
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/bx/n/8 Ground truth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 PanGu 350M /
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Acknowledged,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Domain pre-
+Underfull \hbox (badness 1292) in paragraph at lines 418--418
+\T1/cmr/m/n/8 + 50-case ex-pert
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Perplexity,
+Underfull \hbox (badness 2799) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 34 sub-jects, 102
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\T1/cmr/m/n/8 ROUGE-L,
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Qualitative con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Alpaca 7B /
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Subject-grouped
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Balanced ac-cu-
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 SOS-HL-1K;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Mistral-7B In-
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 1,249 + 3,407
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 1 $\OMS/cmsy/m/n/8 ^^B$ \T1/cmr/m/n/8 RTX 3090
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Platform self-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 PsychoBench
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 2-stage stu-dent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\T1/cmr/m/n/8 EIS/Empathy,
+Underfull \hbox (badness 4886) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Random 75/5/20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Human norms
+Underfull \hbox (badness 1406) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Synthetic (HOPE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 T5, FLAN-T5,
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|$\OMS/cmsy/m/n/8 ^^X$\T1/cmr/m/n/8 4M sen-tences;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-\T1/cmr/m/n/8 BART, GODEL
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+\T1/cmr/m/n/8 2,700 syn-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Gumilang et
+Underfull \hbox (badness 1142) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 PRIMATE + re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Train/validation
+Underfull \hbox (badness 4621) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 Randomised sub-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Bookanakere et
+Underfull \hbox (badness 3965) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 GPT-4o pro-posal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
-[]|\T1/cmr/m/n/8 Accuracy, pre-ci-
+Underfull \hbox (badness 10000) in paragraph at lines 418--418
+[]|\T1/cmr/m/n/8 LLM pseudo-
+ []
+
+
+Underfull \hbox (badness 2435) in paragraph at lines 418--418
+\T1/cmr/m/n/8 labels (4 sources
  []
 
 
@@ -785,145 +716,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--289
 [9]
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/bx/n/8 Adaptation
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/bx/n/8 Quantitative
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/bx/n/8 Generation-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-\T1/cmr/bx/n/8 quality in-stru-
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 345--345
+[11]
+Underfull \hbox (badness 1748) in paragraph at lines 471--471
 []|\T1/cmr/bx/n/8 Human eval-u-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/bx/n/8 Hallucination
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 PanGu 350M /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Act-label match
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Domain pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Lai, Mau-rya,
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Perplexity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-\T1/cmr/m/n/8 George, Gu-mi-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/cmr/m/n/8 ROUGE-L,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 ROUGE/BLEU
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Alpaca 7B /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-\T1/cmr/m/n/8 (Lai, Mau-rya);
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Balanced ac-cu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-\T1/cmr/m/n/8 Psy-choBench
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Mistral-7B In-
  []
 
 
-Underfull \hbox (badness 5119) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 4 of 5, qual-ity
+Underfull \hbox (badness 4072) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 1 $\OMS/cmsy/m/n/8 ^^B$ \T1/cmr/m/n/8 RTX 3090
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Retrieval-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 PsychoBench
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Expert Lik-ert
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/cmr/m/n/8 EIS/Empathy,
  []
 
 
-Underfull \hbox (badness 3826) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Verification stage
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Human norms
  []
 
 
-Underfull \hbox (badness 2285) in paragraph at lines 345--345
-[]|\T1/cmr/m/n/8 Kamoji (clas-si-fier
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 T5, FLAN-T5,
  []
 
 
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\T1/cmr/bx/n/8 Inferential
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/cmr/m/n/8 BART, GODEL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 Professional li-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Gumilang et
  []
 
 
-Underfull \hbox (badness 5924) in paragraph at lines 377--377
-\T1/cmr/m/n/8 matched gen-er-al-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Train/validation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 4 prompt-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Bookanakere et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-\T1/cmr/m/n/8 ing/decoding
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 Chinese Coun-
- []
-
-
-Underfull \hbox (badness 2980) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 944 exam items;
- []
-
-
-Underfull \hbox (badness 5077) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 Single pass, de-
- []
-
-
-Underfull \hbox (badness 4726) in paragraph at lines 377--377
-[]|\T1/cmr/m/n/8 Chi-square (Bon-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-\T1/cmr/m/n/8 fer-roni, $\OML/cmm/m/it/8 $\T1/cmr/m/n/8 =.01);
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--377
-\OML/cmm/m/it/8 t$\T1/cmr/m/n/8 -tests; point-
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]|\T1/cmr/m/n/8 Accuracy, pre-ci-
  []
 
 
@@ -931,140 +812,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 377--377
 [12]
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/bx/n/8 Ground truth
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/bx/n/8 Adaptation
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/bx/n/8 Reliability
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/bx/n/8 Quantitative
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/bx/n/8 Uncertainty
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/bx/n/8 Generation-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/bx/n/8 Rater-effect
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\T1/cmr/bx/n/8 quality in-stru-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Licensing exam
+Underfull \hbox (badness 1748) in paragraph at lines 527--527
+[]|\T1/cmr/bx/n/8 Human eval-u-a-
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Prompting con-di-
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/bx/n/8 Hallucination
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Exam key +
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Act-label match
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-\T1/cmr/m/n/8 crowd-worker la-
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Lai, Mau-rya,
  []
 
 
-Underfull \hbox (badness 6978) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Published re-view
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\T1/cmr/m/n/8 George, Gu-mi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Response con-sis-
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 ROUGE/BLEU
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Kruskal-
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\T1/cmr/m/n/8 (Lai, Mau-rya);
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-\T1/cmr/m/n/8 Wallis/chi-square
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\T1/cmr/m/n/8 Psy-choBench
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Expert sui-ci-dol-o-
+Underfull \hbox (badness 5119) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 4 of 5, qual-ity
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Test-retest cor-re-
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Retrieval-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Nested-structure
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Expert Lik-ert
  []
 
 
-Underfull \hbox (badness 2111) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 3 psy-chi-atric ex-
+Underfull \hbox (badness 3826) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Verification stage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 ICC(C,1) and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--427
-[]|\T1/cmr/m/n/8 Two-way mixed-
+Underfull \hbox (badness 2285) in paragraph at lines 527--527
+[]|\T1/cmr/m/n/8 Kamoji (clas-si-fier
  []
 
 
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/bx/n/8 Total ob-ser-va-
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/bx/n/8 Inferential
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/bx/n/8 Human com-
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 Professional li-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/bx/n/8 Reliability
+Underfull \hbox (badness 5924) in paragraph at lines 559--559
+\T1/cmr/m/n/8 matched gen-er-al-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-\T1/cmr/m/n/8 + 6,016 pub-lic
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 4 prompt-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/8 Schnepper et
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\T1/cmr/m/n/8 ing/decoding
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/8 None (pub-lished
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 Chinese Coun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/8 Thotapalli et
+Underfull \hbox (badness 2980) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 944 exam items;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/8 Lauderdale et
+Underfull \hbox (badness 5077) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 Single pass, de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--466
-[]|\T1/cmr/m/n/8 42 li-censed
+Underfull \hbox (badness 4726) in paragraph at lines 559--559
+[]|\T1/cmr/m/n/8 Chi-square (Bon-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\T1/cmr/m/n/8 fer-roni, $\OML/cmm/m/it/8 $\T1/cmr/m/n/8 =.01);
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 559--559
+\OML/cmm/m/it/8 t$\T1/cmr/m/n/8 -tests; point-
  []
 
 
@@ -1072,45 +958,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 466--466
 [15]
 
 [16]
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/bx/n/8 Ground truth
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/bx/n/8 Reliability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/bx/n/8 Uncertainty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/bx/n/8 Rater-effect
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Licensing exam
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Prompting con-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Exam key +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+\T1/cmr/m/n/8 crowd-worker la-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Published re-view
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Response con-sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Kruskal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+\T1/cmr/m/n/8 Wallis/chi-square
+ []
+
+
+Underfull \hbox (badness 6157) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Expert sui-ci-dol-o-
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Test-retest cor-re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Nested-structure
+ []
+
+
+Underfull \hbox (badness 2111) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 3 psy-chi-atric ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 ICC(C,1) and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--609
+[]|\T1/cmr/m/n/8 Two-way mixed-
+ []
+
+
 
 [17]
-Underfull \hbox (badness 1137) in paragraph at lines 526--526
-[]|\T1/cmr/bx/n/9 Reliability statis-
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/bx/n/8 Total ob-ser-va-
  []
 
 
-Underfull \hbox (badness 4120) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 Levkovich, Schnep-
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/bx/n/8 Human com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-\T1/cmr/m/n/9 per, Tho-ta-palli,
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/bx/n/8 Reliability
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 High (con-trolled
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+\T1/cmr/m/n/8 + 6,016 pub-lic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 Low (hy-po-thet-i-cal,
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/m/n/8 Schnepper et
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 Moderate (ran-
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/m/n/8 None (pub-lished
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 Wang, Song,
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/m/n/8 Thotapalli et
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 526--526
-[]|\T1/cmr/m/n/9 Highest (real use,
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/m/n/8 Lauderdale et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 648--648
+[]|\T1/cmr/m/n/8 42 li-censed
  []
 
 
@@ -1120,177 +1101,227 @@ Underfull \hbox (badness 8094) in paragraph at lines 526--526
 [19]
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 588--588
-[]|\T1/cmr/m/n/9 5 ap-ply coun-ter-fac-tual,
+Underfull \hbox (badness 1137) in paragraph at lines 708--708
+[]|\T1/cmr/bx/n/9 Reliability statis-
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 Levkovich, Schnep-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+\T1/cmr/m/n/9 per, Tho-ta-palli,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 High (con-trolled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 Low (hy-po-thet-i-cal,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 Moderate (ran-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 Wang, Song,
+ []
+
+
+Underfull \hbox (badness 8094) in paragraph at lines 708--708
+[]|\T1/cmr/m/n/9 Highest (real use,
  []
 
 
 
 [21]
-Underfull \hbox (badness 4967) in paragraph at lines 634--634
-[]|\T1/cmr/bx/n/8 Human val-i-da-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/bx/n/8 Inferential
- []
-
-
-Underfull \hbox (badness 4739) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Chi-square, pair-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Multi-turn sim-u-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Agent-to-agent,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 LIWC-22 (au-to-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Joinpoint re-gres-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-\T1/cmr/m/n/8 sion, GBTM,
- []
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Single + con-text
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Guideline-derived,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Bootstrap CIs,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Expert-stratified
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Mixed-effects lo-
- []
-
-
-Underfull \hbox (badness 5431) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Escalating multi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 PHQ-9-anchored
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Single-turn, 2
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Proxy-framed
- []
-
-
-Underfull \hbox (badness 1270) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 2 school coun-sel-
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Consensus res-o-lu-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Au Ye-ung et
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Clinician-written
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Paired $\OML/cmm/m/it/8 t$\T1/cmr/m/n/8 -tests,
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 15 val-i-dated per-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 GPT-4o, ex-pert
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 6 clin-i-cal pro-fes-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 634--634
-[]|\T1/cmr/m/n/8 Correlations, $\OML/cmm/m/it/8 ^^T$\T1/cmr/m/n/8 ,
- []
-
-
 
 [22]
-Underfull \hbox (badness 1142) in paragraph at lines 724--724
-[]|\T1/cmr/bx/n/9 Inferential statis-
- []
-
-
-Underfull \hbox (badness 1852) in paragraph at lines 724--724
-[]|\T1/cmr/bx/n/9 Reliability co-ef-fi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 724--724
-[]|\T1/cmr/bx/n/9 Code/data re-
- []
-
-
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 814--814
-[]|\T1/cmr/m/n/9 Reporting stan-dard fol-lowed
+Underfull \hbox (badness 10000) in paragraph at lines 770--770
+[]|\T1/cmr/m/n/9 5 ap-ply coun-ter-fac-tual,
  []
 
 
 
 [24]
+Underfull \hbox (badness 4967) in paragraph at lines 816--816
+[]|\T1/cmr/bx/n/8 Human val-i-da-
+ []
 
-[25] (./main.bbl
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/bx/n/8 Inferential
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Chi-square, pair-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Multi-turn sim-u-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Agent-to-agent,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 LIWC-22 (au-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Joinpoint re-gres-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+\T1/cmr/m/n/8 sion, GBTM,
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Single + con-text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Guideline-derived,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Bootstrap CIs,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Expert-stratified
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Mixed-effects lo-
+ []
+
+
+Underfull \hbox (badness 5431) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Escalating multi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 PHQ-9-anchored
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Single-turn, 2
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Proxy-framed
+ []
+
+
+Underfull \hbox (badness 1270) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 2 school coun-sel-
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Consensus res-o-lu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Au Ye-ung et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Clinician-written
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Paired $\OML/cmm/m/it/8 t$\T1/cmr/m/n/8 -tests,
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 15 val-i-dated per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 GPT-4o, ex-pert
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 6 clin-i-cal pro-fes-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 816--816
+[]|\T1/cmr/m/n/8 Correlations, $\OML/cmm/m/it/8 ^^T$\T1/cmr/m/n/8 ,
+ []
+
+
+
+[25]
+Underfull \hbox (badness 1142) in paragraph at lines 906--906
+[]|\T1/cmr/bx/n/9 Inferential statis-
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 906--906
+[]|\T1/cmr/bx/n/9 Reliability co-ef-fi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--906
+[]|\T1/cmr/bx/n/9 Code/data re-
+ []
+
+
 
 [26]
+Underfull \hbox (badness 10000) in paragraph at lines 996--996
+[]|\T1/cmr/m/n/9 Reporting stan-dard fol-lowed
+ []
+
+
 
 [27]
 
 [28]
+
+[29]
+
+[30] (./main.bbl
+
+[31]
+
+[32]
+
+[33]
 Underfull \hbox (badness 1838) in paragraph at lines 288--294
 []\T1/cmr/m/n/10.95 Jared Moore, De-clan Grabb, William Ag-new, Kevin Kly-man, 
 Ste-vie Chan-cel-lor,
@@ -1298,51 +1329,55 @@ Ste-vie Chan-cel-lor,
 
 
 
-[29]
+[34]
 
-[30])
+[35])
 
-[31] (./main.aux)
+[36] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: F797CDF096E6AA18E5CFD07904344FDB;10776.
+(rerunfilecheck)             Checksum: 06F52BABF5641377440A14B296189FBA;13629.
  ) 
 Here is how much of TeX's memory you used:
- 11388 strings out of 473190
- 174944 string characters out of 5715800
- 588645 words of memory out of 5000000
- 34336 multiletter control sequences out of 15000+600000
- 577940 words of font info for 83 fonts, out of 8000000 for 9000
+ 11813 strings out of 473190
+ 181808 string characters out of 5715800
+ 596460 words of memory out of 5000000
+ 34726 multiletter control sequences out of 15000+600000
+ 579479 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1521b,791s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,1521b,789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
 /usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
 sr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
 /local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
-cal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/loca
-l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/
-texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/te
-xlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texl
-ive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texliv
-e/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/
-2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/20
-25/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025
-/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/t
-exmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/tex
-mf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf
--dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/
-fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (31 pages, 540766 bytes).
+ocal/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
+l/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
+exlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texli
+ve/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0600.pfb></usr/local/texlive
+/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb></usr/local/texlive/2
+025/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/202
+5/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2025/
+texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2025/te
+xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texm
+f-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-
+dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2025/texmf-di
+st/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2025/texmf-dist
+/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2025/texmf-dist/f
+onts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2025/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2025/texmf-dist/fonts
+/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/t
+ype1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/typ
+e1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (36 pages, 621875 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 571 compressed objects within 6 object streams
- 142 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 905 PDF objects out of 1000 (max. 8388607)
+ 692 compressed objects within 7 object streams
+ 171 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 
